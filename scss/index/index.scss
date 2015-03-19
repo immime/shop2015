@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+@import "../common/var.scss";
+/*火爆商品*/
+#content{overflow:hidden;}
+.body_auto{@extend .w1190;@extend .mrauto;}
+.hot_pro{}
+.hot_pro_t{
+	overflow:hidden;line-height:22px;
+	h2{
+		float:left;
+		color:$color_hover;
+		font-size:20px;
+	}
+	a{
+		float:right;
+		font-size:14px;color:$color;
+		&:hover{
+			color:$color_hover;
+		}
+	}
+}
+.hot_pro_b{
+	overflow:hidden;
+	dl{
+		float:left;width:176px;border:1px solid #e6e6e6;border-left:1px solid #fff;border-right:1px solid #fff;padding:20px 10px 15px;
+		&:hover{
+			border:1px solid $color_hover;
+		}
+		&.first{
+			border-left:1px solid #e6e6e6;
+			&:hover{
+				border:1px solid $color_hover;
+			}
+		}
+		&.five{
+			
+		}
+		&.six{
+			width:178px;
+			border-right:1px solid #e6e6e6;
+			&:hover{
+				border:1px solid $color_hover;
+			}
+		}
+		dt{
+			width:120px;height:120px;overflow:hidden;
+			img{
+				width:120px;height:120px;display:block;margin-left:28px;transition:all .3s ease;
+				&:hover{
+					transform:scale(1.05);
+				}
+			}
+		}
+		dd{
+			font-family:arial,"Microsoft YaHei";@extend .text-overflow;padding-top:10px;
+			a{
+				font-size:14px;color:$color;
+				&:hover{
+
+				}
+			}
+			span{
+				width:50%;
+				&.l{
+					float:left;color:$color_hover;font-size:14px;font-family:arial,"SimSun";
+				}
+				&.r{
+					float:right;color:$color;text-align:right;
+				}
+			}
+		}
+	}
+}
+/*品牌*/
+.brand_bot{
+	height:270px;position:relative;
+	img{
+		position:absolute;
+	}
+}
+.brand_1{left:0;top:0;}
+.brand_2{left:200px;top:0;}
+.brand_3{left:200px;top:140px;}
+.brand_4{left:400px;top:0;}
+.brand_5{left:600px;top:0;}
+.brand_6{left:600px;top:140px;}
+.brand_7{left:800px;top:0;}
+.brand_8{left:1000px;top:0;}
+.brand_9{left:1000px;top:140px;}
+/*狗狗商品*/
+.dog{}
+.dog_top{border-bottom:1px solid $color_hover;height:38px;}
+.dog_tit{
+	em{}
+	h2{}
+}
+.dog_nav{
+	li{
+		a{
+			&.current{
+
+			}
+			&:hover{
+
+			}
+		}
+	}
+}
+
+.dog_bot{}
+.dog_l{}
+.dog_l_img{
+
+	img{
+
+	}
+}
+.dog_l_num{
+
+	span{
+
+	}
+}
