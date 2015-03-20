@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.w1190, .body_auto {
+  width: 1190px;
+}
+
+.w990 {
+  width: 990px;
+}
+
+.mrauto, .body_auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+.text-overflow, .hot_pro_b dl dd {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*火爆商品*/
+#content {
+  overflow: hidden;
+}
+
+.hot_pro_t {
+  overflow: hidden;
+  line-height: 22px;
+}
+.hot_pro_t h2 {
+  float: left;
+  color: #e53;
+  font-size: 20px;
+}
+.hot_pro_t a {
+  float: right;
+  font-size: 14px;
+  color: #666;
+}
+.hot_pro_t a:hover {
+  color: #e53;
+}
+
+.hot_pro_b {
+  overflow: hidden;
+}
+.hot_pro_b dl {
+  float: left;
+  width: 176px;
+  border: 1px solid #e6e6e6;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding: 20px 10px 15px;
+}
+.hot_pro_b dl:hover {
+  border: 1px solid #e53;
+}
+.hot_pro_b dl.first {
+  border-left: 1px solid #e6e6e6;
+}
+.hot_pro_b dl.first:hover {
+  border: 1px solid #e53;
+}
+.hot_pro_b dl.six {
+  width: 178px;
+  border-right: 1px solid #e6e6e6;
+}
+.hot_pro_b dl.six:hover {
+  border: 1px solid #e53;
+}
+.hot_pro_b dl dt {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+.hot_pro_b dl dt img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin-left: 28px;
+  transition: all .3s ease;
+}
+.hot_pro_b dl dt img:hover {
+  transform: scale(1.05);
+}
+.hot_pro_b dl dd {
+  font-family: arial,"Microsoft YaHei";
+  padding-top: 10px;
+}
+.hot_pro_b dl dd a {
+  font-size: 14px;
+  color: #666;
+}
+.hot_pro_b dl dd span {
+  width: 50%;
+}
+.hot_pro_b dl dd span.l {
+  float: left;
+  color: #e53;
+  font-size: 14px;
+  font-family: arial,"SimSun";
+}
+.hot_pro_b dl dd span.r {
+  float: right;
+  color: #666;
+  text-align: right;
+}
+
+/*品牌*/
+.brand_bot {
+  height: 270px;
+  position: relative;
+}
+.brand_bot img {
+  position: absolute;
+}
+
+.brand_1 {
+  left: 0;
+  top: 0;
+}
+
+.brand_2 {
+  left: 200px;
+  top: 0;
+}
+
+.brand_3 {
+  left: 200px;
+  top: 140px;
+}
+
+.brand_4 {
+  left: 400px;
+  top: 0;
+}
+
+.brand_5 {
+  left: 600px;
+  top: 0;
+}
+
+.brand_6 {
+  left: 600px;
+  top: 140px;
+}
+
+.brand_7 {
+  left: 800px;
+  top: 0;
+}
+
+.brand_8 {
+  left: 1000px;
+  top: 0;
+}
+
+.brand_9 {
+  left: 1000px;
+  top: 140px;
+}
+
+/*狗狗商品*/
+.dog_top {
+  border-bottom: 1px solid #e53;
+  height: 38px;
+}
+
+/*# sourceMappingURL=index.css.map */

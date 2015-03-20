@@ -1,0 +1,34 @@
+.w1190 {
+  width: 1190px;
+}
+
+.w990 {
+  width: 990px;
+}
+
+.mrauto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/***media query***/
+@media screen and (max-width: 1190px) {
+  .w1190 {
+    width: 990px;
+  }
+}
+
+/*# sourceMappingURL=var.css.map */

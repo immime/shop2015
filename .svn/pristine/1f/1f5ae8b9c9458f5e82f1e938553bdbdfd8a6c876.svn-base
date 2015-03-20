@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+$background:"../../images/";
+$color:#666;
+$color_hover:#e53;
+$color_ddd:#ddd;
+$color_333:#333;
+$color_ccc:#ccc;
+$color_999:#999;
+$color_c20:#c20;
+
+@mixin opacity($value:100){
+	opacity:($value/100);
+	filter:alpha(opacity=$value);
+}

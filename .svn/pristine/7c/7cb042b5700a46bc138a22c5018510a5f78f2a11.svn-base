@@ -1,0 +1,45 @@
+/*左侧菜单*/
+$('.menu_list').hover(
+	function(){
+		$(this).find('.menu_list_l').addClass('current').next().show();
+	},function(){
+		$(this).find('.menu_list_l').removeClass('current').next().hide();
+	}
+);
+/*banner切换*/
+$(".banner_content").slide({
+	effect:"leftLoop",
+	titOnClassName:'current',
+	titCell:".banner_num span",
+	interTime:4000,
+	delayTime:600
+});
+$(".zx").slide({
+	effect:"leftLoop",
+	autoPlay:false,
+	interTime:2500,
+	delayTime:500
+});
+$('.dy_text').keyWords();
+/*商品左侧banner切换*/
+$(".dog_l").slide({
+	effect:"left",
+	titOnClassName:'current',
+	titCell:".dog_l_num span",
+	interTime:2500,
+	delayTime:500
+});
+/*商品导航*/
+$('.dog_nav').on('mouseover','a',function(){
+	$(this).addClass('current').siblings().removeClass();
+	var index = $(this).index();
+	$(this).parents('.dog_top').next().find('.dog_c_t').hide().eq(index).show();
+});
+/*底部评价*/
+$(".ev_bot").slide({
+	effect:"topLoop",
+	scroll:1,
+	vis:2,
+	interTime:4000,
+	delayTime:800
+});

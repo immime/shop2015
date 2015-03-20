@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+// @import "../common/var.scss";
+/*火爆商品*/
+$color_666 : #666;
+#content{overflow:hidden;}
+// .body_auto{@extend .w1190;@extend .mrauto;}
+.hot_pro{}
+.hot_pro_t{
+
+	h2{
+
+	}
+	a{
+
+		&:hover{
+
+		}
+	}
+}
+.hot_pro_b{
+	dl{
+		dt{
+			
+			img{
+
+			}
+		}
+		dd{
+			font-family:arial,"simsun";
+			a{
+				font-size:14px;color:$color_666;
+				&:hover{
+
+				}
+			}
+			span{
+				width:50%;
+				&.l{
+					// float:left;color:$color_hover;font-size:14px;
+				}
+				&.r{
+					color:#999;
+				}
+			}
+		}
+	}
+}

@@ -4,7 +4,6 @@ module.exports = function(grunt){
 	require("load-grunt-tasks")(grunt);
 
 	grunt.initConfig({
-
 		sass:{
 			cssfile:{
 				options:{
@@ -38,6 +37,20 @@ module.exports = function(grunt){
 				files:{
 					src:"css/"
 				}
+			}
+		},
+		uglify:{
+			scriptfiles:{
+				options:{
+					banner:"/* ! CompressJs by Yangfei <%= grunt.template.today('yy-mm-dd') %>*/\n"
+				},
+				files:[{
+					expand:true,
+					cwd:"js/",
+					src:"*.js",
+					dest:"dist/",
+					ext:".js"
+				}]
 			}
 		},
 		watch:{
