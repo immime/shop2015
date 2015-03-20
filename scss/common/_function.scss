@@ -161,6 +161,12 @@
 	border-bottom:1px solid $color;
 }
 
+%inline-block {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
 %fl {
 	display: inline;
 	float: left;

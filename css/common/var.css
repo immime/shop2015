@@ -24,4 +24,11 @@
   white-space: nowrap;
 }
 
+/***media query***/
+@media screen and (max-width: 1190px) {
+  .w1190 {
+    width: 990px;
+  }
+}
+
 /*# sourceMappingURL=var.css.map */

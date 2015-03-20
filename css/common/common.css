@@ -56,6 +56,12 @@ ul {
   white-space: nowrap;
 }
 
+/***media query***/
+@media screen and (max-width: 1190px) {
+  .w1190, .toolbar_auto, .top_auto, .nav_auto {
+    width: 990px;
+  }
+}
 a {
   color: #666;
   text-decoration: none;
@@ -457,6 +463,17 @@ a:focus {
 }
 .footer_bot p a:hover {
   text-decoration: underline;
+}
+
+/***media query***/
+@media screen and (max-width: 1190px) {
+  .top_search {
+    width: 460px;
+  }
+
+  .search_s {
+    width: 354px;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */

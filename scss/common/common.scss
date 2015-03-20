@@ -210,3 +210,8 @@ a:focus { outline:0;}
 		}
 	}
 }
+/***media query***/
+@media screen and (max-width:1190px){
+	.top_search{width:460px;}
+	.search_s{width:354px;}
+}

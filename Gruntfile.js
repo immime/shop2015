@@ -19,6 +19,19 @@ module.exports = function(grunt){
 				}]
 			}
 		},
+		/*coffee:{
+			coffeescript:{
+				files:[
+					{
+						expand:true,
+						cwd:"js/",
+						src:"*.coffee",
+						dest:"js/",
+						ext:".js"
+					}
+				]
+			}
+		},*/
 		/**清理文件**/
 		clean:{
 			test:{
