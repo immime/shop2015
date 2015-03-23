@@ -71,11 +71,6 @@ a:hover {
   text-decoration: underline;
 }
 
-button, [type=button], [type=submit] {
-  border: none;
-  background: none;
-}
-
 a, area {
   blr: expression(this.onFocus=this.blur());
 }
@@ -512,7 +507,7 @@ a:focus {
     width: 990px;
   }
 }
-.breadcrumb .search_conditions, .breadcrumb .search_conditions .close_btn, .breadcrumb .search_form, #listcontent .goodsCate .goodsCateTitle .dog, #listcontent .goodsCate .goodsCateList_li .goodsCateSub a, #listcontent .filter_container .arrow_down_red, #listcontent .product_container .product_list li .operation .add_cart .icon_cart, #listcontent .product_container .product_list li .operation .do_attention .icon_fav, .pagination a {
+.breadcrumb .search_conditions, .breadcrumb .search_conditions .close_btn, .breadcrumb .search_form, #listcontent .goodsCate .goodsCateTitle .dog, #listcontent .goodsCate .goodsCateList_li .goodsCateSub a, #listcontent .filter_container .arrow_down_red, #listcontent .product_container .product_list li .operation .add_cart .icon_cart, #listcontent .product_container .product_list li .operation .do_attention .icon_fav {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -528,7 +523,7 @@ a:focus {
   float: right;
 }
 
-.breadcrumb .search_conditions, .breadcrumb .search_conditions .close_btn, .breadcrumb .search_form, #listcontent .goodsCate .goodsCateTitle .dog, #listcontent .goodsCate .goodsCateList_li .goodsCateSub a, #listcontent .filter_container .arrow_down_red, #listcontent .product_container .product_list li .operation .add_cart .icon_cart, #listcontent .product_container .product_list li .operation .do_attention .icon_fav, .pagination a {
+.breadcrumb .search_conditions, .breadcrumb .search_conditions .close_btn, .breadcrumb .search_form, #listcontent .goodsCate .goodsCateTitle .dog, #listcontent .goodsCate .goodsCateList_li .goodsCateSub a, #listcontent .filter_container .arrow_down_red, #listcontent .product_container .product_list li .operation .add_cart .icon_cart, #listcontent .product_container .product_list li .operation .do_attention .icon_fav {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -1043,47 +1038,6 @@ a:hover {
 }
 #listcontent .product_container .product_list li:hover {
   border: 3px solid #ee5533;
-}
-
-.pagination {
-  float: right;
-  margin-top: 30px;
-}
-.pagination a {
-  color: #333;
-  font-size: 14px;
-  border: 1px solid #e6e6e6;
-  padding: 0 12px;
-  height: 36px;
-  line-height: 36px;
-}
-.pagination a:hover {
-  color: #ee5533;
-  border: 1px solid #ee5533;
-}
-.pagination a.active {
-  background: #ee5533;
-  color: #FFF !important;
-}
-.pagination .total_page {
-  margin-left: 30px;
-  margin-right: 14px;
-}
-.pagination .prev_page:hover, .pagination .next_page:hover {
-  border: 1px solid #e6e6e6;
-  color: #333 !important;
-}
-.pagination .go_page_text {
-  width: 10px;
-}
-.pagination .go_page_button {
-  cursor: pointer;
-}
-.pagination .go_page_text, .pagination .go_page_button {
-  padding: 0 12px;
-  height: 34px;
-  border: 1px solid #e6e6e6;
-  text-align: center;
 }
 
 .bar_title {

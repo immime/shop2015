@@ -637,16 +637,7 @@
                         </li>
                     </ul>
                     <div class="pagination">
-                        <a href="" class="prev_page"><i></i>上一页</a>
-                        <a href="" class="active">1</a>
-                        <a href="">2</a>
-                        <a href="">3</a>
-                        <a href="">4</a>
-                        <a href="">5</a>
-                        <a href="" class="next_page"><i></i>下一页</a>
-                        <span class="total_page">共35页</span>
-                        <span>到第<input type="text" class="go_page_text">&nbsp;&nbsp;页</span>
-                        <input type="button" value="确定" class="go_page_button">
+                        <a href=""><i></i>上一页</a>
                     </div>
                 </div>
             </div>

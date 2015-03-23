@@ -554,50 +554,6 @@ a {
 		}
 	}
 }
-//分页
-.pagination{
-	float: right;
-	margin-top:30px;
-	a{
-		@extend %inline-block;
-		color:$color_333;
-		font-size: 14px;
-		border:1px solid #e6e6e6;
-		padding:0 12px;
-		height: 36px;
-		line-height: 36px;
-		&:hover{
-			color:#ee5533;
-			border:1px solid #ee5533;
-		}
-		&.active{
-			background:#ee5533;
-			color:#FFF !important;
-		}
-	}
-	.total_page{
-		margin-left:30px;
-		margin-right: 14px;
-	}
-	.prev_page,.next_page{
-		&:hover{
-			border:1px solid #e6e6e6;
-			color:$color_333 !important;
-		}
-	}
-	.go_page_text{
-		width:10px;
-	}
-	.go_page_button{
-		cursor: pointer;
-	}
-	.go_page_text,.go_page_button{
-		padding:0 12px;
-		height:34px;
-		border:1px solid #e6e6e6;
-		text-align: center;
-	}
-}
 
 .bar_title{
 	color:$color_333;
