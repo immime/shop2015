@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<title>波奇商城-商品列表</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link href="css/common/common.css" rel="stylesheet" />
+    <link href="css/shoplist/list.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+	    <script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- toolbar开始 -->
+<div id="toolbar">
+	<div class="toolbar_auto">
+        <div class="left">
+            <div class="collect left"><em></em>收藏波奇商城</div>
+            <div class="city left">
+                <div class="city_l left"><em></em><strong>上海</strong></div>
+                <div class="city_r left">[更换]</div>
+            </div>
+        </div>
+        <div class="toolbar_r right">
+            <a href="#">登录</a> ｜ <a href="#">注册</a> ｜ <a href="#">我的订单</a> ｜ <a href="#">手机端</a> ｜ <a href="#">关注波奇</a> ｜ <div class="r"></div>
+        </div>
+    </div>
+</div>
+<!-- toolbar结束 -->
+<!-- 顶部开始 -->
+<div id="header">
+	<div class="top_auto">
+    	<div class="logo left"><a href="#"><img src="images/logo.jpg" alt=""></a></div>
+        <div class="top_search left">
+            <div class="top_search_t">
+                <input type="text" value="狗粮" class="search_s" />
+                <input type="button" class="search_btn" value="搜 索">
+            </div>
+            <div class="top_search_b mt5">
+                热门搜索：<a href="#">哈士奇</a>　<a href="#">比熊</a>　<a href="#" class="hot">狗粮</a>　<a href="#">德国牧羊犬</a>　<a href="#">布偶猫</a>　<a href="#" class="hot">拉布拉多</a>　<a href="#">蝴蝶犬</a>　<a href="#">八哥</a>
+            </div>
+        </div>
+        <div class="top_ad right"><a href="#"><img src="images/ad.jpg" alt=""></a></div>
+    </div>
+</div>
+<!-- 顶部结束 -->
+<!-- 导航开始 -->
+<div id="nav">
+	<div class="nav_auto">
+    	<div class="nav_left left"><span>全部商品分类</span><em></em></div>
+        <div class="nav left">
+            <a href="#" class="current">首页</a>
+            <a href="#">狗狗</a>
+            <a href="#">猫咪</a>
+            <a href="#">小宠</a>
+            <a href="#">水族</a>
+            <a href="#">爬虫</a>
+            <a href="#">品牌馆</a>
+            <a href="#">团购</a>
+            <a href="#">宠物服务</a>
+        </div>
+        <div class="shop right">
+            <div class="shop_text"><em></em>购物车</div>
+            <span>500</span>
+        </div>
+    </div>
+</div>
+<!-- 导航结束 -->
+<!-- 主体内容开始 -->
+<div id="listcontainer">
+    <div class="breadcrumb">
+        <div class="breadcrumbNav">
+           <a href="#" class="breadcrumbNav_link">首页</a>
+           <i class="arrow_right"> > </i>
+           <a href="#" class="breadcrumbNav_link">狗狗商品</a>
+           <i class="arrow_right"> > </i>
+           <a href="#" class="breadcrumbNav_link">狗粮</a>
+           <i class="arrow_right"> > </i>
+           <a href="" class="search_conditions">品牌<strong>:</strong>皇家 <i class="icons close_btn"></i></a>
+           <i class="arrow_right"> > </i>
+           <div class="search_form">
+                <form action="" method="">
+                    <input type="text" name="keyword" placeholder="在结果中查找" class="search_txt">
+                    <input type="submit" value="" class="icons form_search">
+                </form>
+            </div>
+        </div>
+        <div class="breadcrumbRight">
+            <a href="javascript:;" id="clearConditions">清空已选条件</a>
+        </div>
+    </div>
+    <div id="listcontent">
+        <div class="leftBar">
+            <div class="goodsCate">
+                <h1 class="goodsCateTitle"><i class="icons dog"></i>狗狗商品</h1>
+                <ul class="goodsCateList">
+                    <li class="goodsCateList_li goodsCateList_on">
+                        <h2 class="goodsCateSubTitle"><span>狗粮</span><i class="icons arrow_up"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                    <li class="goodsCateList_li">
+                        <h2 class="goodsCateSubTitle"><span>狗罐头/妙鲜包</span><i class="icons arrow_down"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                    <li class="goodsCateList_li">
+                        <h2 class="goodsCateSubTitle"><span>狗零食</span><i class="icons arrow_down"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                    <li class="goodsCateList_li">
+                        <h2 class="goodsCateSubTitle"><span>狗狗保健品</span><i class="icons arrow_down"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                    <li class="goodsCateList_li">
+                        <h2 class="goodsCateSubTitle"><span>狗狗医疗</span><i class="icons arrow_down"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                    <li class="goodsCateList_li">
+                        <h2 class="goodsCateSubTitle"><span>狗狗沐浴露</span><i class="icons arrow_down"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                    <li class="goodsCateList_li">
+                        <h2 class="goodsCateSubTitle"><span>狗狗日用品</span><i class="icons arrow_down"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                    <li class="goodsCateList_li">
+                        <h2 class="goodsCateSubTitle"><span>狗狗玩具</span><i class="icons arrow_down"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                    <li class="goodsCateList_li">
+                        <h2 class="goodsCateSubTitle"><span>狗衣服/狗窝</span><i class="icons arrow_down"></i></h2>
+                        <div class="goodsCateSub">
+                            <a href="" class="active">离乳期犬粮</a>
+                            <a href="">幼犬粮</a>
+                            <a href="">成犬粮</a>
+                            <a href="">老犬粮</a>
+                            <a href="">全犬粮</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="hot">
+                <h2 class="bar_title">热卖推荐</h2>
+                <ul class="hotList">
+                    <li>
+                        <a href="#">
+                            <img src="images/img/hotgoods.jpg" alt="" width="170" height="140" />
+                        </a>
+                        <div class="clearfix">
+                            <strong class="price">¥ 397.00</strong>
+                            <span class="soldNum">已售11220</span>
+                        </div>
+                        <a class="goodName" href="">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img/hotgoods.jpg" alt="" width="170" height="140" />
+                        </a>
+                        <div class="clearfix">
+                            <strong class="price">¥ 397.00</strong>
+                            <span class="soldNum">已售11220</span>
+                        </div>
+                        <a class="goodName" href="">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img/hotgoods.jpg" alt="" width="170" height="140" />
+                        </a>
+                        <div class="clearfix">
+                            <strong class="price">¥ 397.00</strong>
+                            <span class="soldNum">已售11220</span>
+                        </div>
+                        <a class="goodName" href="">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="brands">
+                <h2 class="bar_title brands_title">品牌推荐</h2>
+                <ul>
+                    <li>
+                        <a href=""><img src="./images/img/brand1.jpg" alt=""></a>
+                    </li>
+                    <li class="noright">
+                        <a href=""><img src="./images/img/brand2.jpg" alt="" ></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./images/img/brand1.jpg" alt=""></a>
+                    </li>
+                    <li class="noright">
+                        <a href=""><img src="./images/img/brand2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./images/img/brand1.jpg" alt=""></a>
+                    </li>
+                    <li class="noright">
+                        <a href=""><img src="./images/img/brand2.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rightBar">
+
+            <div class="filter_container">
+                <div class="filter_item">
+                    <div class="filter_title">品牌</div>
+                    <div class="filter_con_list">
+                        <div class="brand_letters">
+                            <a href="" class="active">所有品牌</a>
+                            <a href="">A</a>
+                            <a href="">B</a>
+                            <a href="">C</a>
+                            <a href="">D</a>
+                            <a href="">E</a>
+                            <a href="">F</a>
+                            <a href="">I</a>
+                            <a href="">G</a>
+                            <a href="">K</a>
+                            <a href="">L</a>
+                            <a href="">M</a>
+                            <a href="">N</a>
+                        </div>
+                        <div class="filter_con_multiple">
+                            <a href="">皇家（royalcanin）</a>
+                            <a href="">比瑞吉</a>
+                            <a href="">麦顿（medon）</a>
+                            <a href="">麦富迪（Myfoodie）</a>
+                            <a href="">好主人（CARE）</a>
+                            <a href="">普瑞纳（PURINA）</a>
+                            <a href="">皇家（royalcanin）</a>
+                            <a href="">皇家（royalcanin）</a>
+                            <a href="">比瑞吉</a>
+                            <a href="">麦顿（medon）</a>
+                            <a href="">麦富迪（Myfoodie）</a>
+                            <a href="">好主人（CARE）</a>
+                            <a href="">普瑞纳（PURINA）</a>
+                            <a href="">皇家（royalcanin）</a>
+                            <a href="">皇家（royalcanin）</a>
+                            <a href="">比瑞吉</a>
+                            <a href="">麦顿（medon）</a>
+                            <a href="">麦富迪（Myfoodie）</a>
+                            <a href="">好主人（CARE）</a>
+                            <a href="">普瑞纳（PURINA）</a>
+                            <a href="">皇家（royalcanin）</a>
+                        </div>
+                    </div>
+                    <div class="more_filter_con">
+                        <a href="javascript:;"><span>更多</span><i class="icons arrow_down_red"></i></a>
+                    </div>
+                </div>
+                <div class="filter_item">
+                    <div class="filter_title">犬型</div>
+                    <div class="filter_con_list">
+                        <a href="">迷你犬</a>
+                        <a href="">小型犬</a>
+                        <a href="">中型犬</a>
+                        <a href="">大型犬</a>
+                        <a href="">巨型犬</a>
+                        <a href="">其他</a>
+                    </div>
+                </div>
+                <div class="filter_item">
+                    <div class="filter_title">规格</div>
+                    <div class="filter_con_list">
+                        <a href="">0-2.9kg</a>
+                        <a href="">3-9.9kg</a>
+                        <a href="">10-19kg</a>
+                        <a href="">20及以上</a>
+                    </div>
+                </div>
+
+                <div class="filter_item">
+                    <div class="filter_title">产地</div>
+                    <div class="filter_con_list">
+                        <a href="">国产</a>
+                        <a href="">进口品牌国内分装</a>
+                    </div>
+                </div>
+
+                <div class="filter_item">
+                    <div class="filter_title">品味</div>
+                    <div class="filter_con_list">
+                        <a href="">鸡肉</a>
+                        <a href="">金枪鱼</a>
+                        <a href="">三文鱼</a>
+                        <a href="">鸭肉</a>
+                        <a href="">混合口味</a>
+                    </div>
+                </div>
+
+                <div class="filter_item">
+                    <div class="filter_title">功效</div>
+                    <div class="filter_con_list">
+                        <a href="">美毛</a>
+                        <a href="">防挑嘴</a>
+                        <a href="">怀孕</a>
+                        <a href="">幼犬助长</a>
+                        <a href="">混合口味</a>
+                    </div>
+                </div>
+                <div class="more_pop_container">
+                    <div class="more_pop_con">
+                        <a href="javascript:;">
+                            <span>更多选项（产地、口味、功效等）</span>
+                            <i class="icons arrow_down_red"></i>
+                            <!-- <span>更多选项（产地、口味、功效等）</span>
+
+                            <i class="icons arrow_down_red"></i> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sort">
+                <div class="sort_left">
+                    <span>排序:</span>
+                    <a href="">综合排序</a>
+                    <a href="" class="active"><span>销量</span><i class="icons icon_down"></i></a>
+
+                    <a href=""><span>人气</span><i class="icons icon_down"></i></a>
+
+                    <a href="" class="active"><span>价格</span><i class="icons icon_up_down"></i></a>
+
+                    <a href=""><span>新品</span><i class="icons icon_down"></i></a>
+
+                    <a href=""><span>评论</span><i class="icons icon_down"></i></a>
+                </div>
+                <div class="sort_right">
+                    <div class="sort_right_left">
+                        <span class="product_total">共42件商品</span>
+                        <span class="product_page">
+                            <em class="product_page_current">1</em>/<em class="product_page_total">35</em>
+                        </span>
+                    </div>
+                    <div class="sort_right_right">
+                        <a href="" class="icons prev_page"></a>
+                        <a href="" class="icons next_page"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="product_container">
+                <div>
+                    <ul class="product_list">
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i><span>加入购物车</span></a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i><span>关注</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product_list_container">
+                                <a href=""><img src="./images/img/prduct.jpg" alt="" class="product_image"></a>
+                                <p class="product_price"><strong>¥ 51.00</strong></p>
+                                <p class="product_name">
+                                    <a href="">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕1kg</a>
+                                </p>
+                                <div class="product_status">
+                                    <a href="" class="product_comment">已有<em>505</em>人评价</a>
+                                    <span class="product_sold">已售100000</span>
+                                </div>
+                                <div class="operation">
+                                    <div class="add_cart">
+                                        <a href=""><i class="icons icon_cart"></i>加入购物车</a>
+                                    </div>
+                                    <div class="do_attention">
+                                        <a href=""><i class="icons icon_fav"></i>关注</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pagination">
+                        <a href="" class="prev_page"><i></i>上一页</a>
+                        <a href="" class="active">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        <a href="">5</a>
+                        <a href="" class="next_page"><i></i>下一页</a>
+                        <span class="total_page">共35页</span>
+                        <span>到第<input type="text" class="go_page_text">&nbsp;&nbsp;页</span>
+                        <input type="button" value="确定" class="go_page_button">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 主体内容结束 -->
+<!-- 正品保障开始 -->
+<div id="foot_service" class="mt30">
+    <div class="foot_s_body">
+        <dl class="left">
+            <dt class="foot_s_1"></dt>
+            <dd class="name">正品保障</dd>
+            <dd>全场正品&#12288;假一罚三</dd>
+        </dl>
+        <dl class="left">
+            <dt class="foot_s_2"></dt>
+            <dd class="name">闪电发货</dd>
+            <dd>江浙沪皖满60元免运费</dd>
+        </dl>
+        <dl class="left">
+            <dt class="foot_s_3"></dt>
+            <dd class="name">无忧退换</dd>
+            <dd>七天退换&#12288;购买无忧</dd>
+        </dl>
+        <dl class="left">
+            <dt class="foot_s_4"></dt>
+            <dd class="name">优质服务</dd>
+            <dd>品类丰富&#12288;多快好省</dd>
+        </dl>
+        <dl class="left last">
+            <dt class="foot_s_5"></dt>
+            <dd class="name">业内领先</dd>
+            <dd>宠友最爱&#12288;值得信赖</dd>
+        </dl>
+    </div>
+</div>
+<!-- 正品保障结束 -->
+<!-- 底部导航开始 -->
+<div id="link">
+    <div class="link_auto">
+        <dl>
+            <dt>新手上路</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">现金账户</a></dd>
+            <dd><a href="#">优惠券</a></dd>
+            <dd><a href="#">订单查询</a></dd>
+            <dd><a href="#">服务协议</a></dd>
+        </dl>
+        <dl>
+            <dt>购买方式</dt>
+            <dd><a href="#">余额支付</a></dd>
+            <dd><a href="#">网上支付</a></dd>
+            <dd><a href="#">银行汇款</a></dd>
+            <dd><a href="#">货到付款</a></dd>
+        </dl>
+        <dl>
+            <dt>配送方式</dt>
+            <dd><a href="#">配送方式</a></dd>
+            <dd><a href="#">收费标准</a></dd>
+            <dd><a href="#">配送时间</a></dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd><a href="#">如何退换货</a></dd>
+            <dd><a href="#">如何退款</a></dd>
+            <dd><a href="#">退换货流程</a></dd>
+            <dd><a href="#">客服电话</a></dd>
+        </dl>
+        <dl>
+            <dt>常见问题</dt>
+            <dd><a href="#">注册登录</a></dd>
+            <dd><a href="#">积分制度</a></dd>
+            <dd><a href="#">热点问题</a></dd>
+        </dl>
+    </div>
+</div>
+<!-- 底部导航结束 -->
+<!-- 底部开始 -->
+<div id="footer">
+    <div class="footer_auto">
+        <div class="footer_bot">
+            <p class="link"><a href="http://www.boqii.com/about.html" target="_blank">关于波奇</a><span>|</span><a href="http://www.boqii.com/link.html" target="_blank">友情链接</a><span>|</span><a href="http://www.boqii.com/joinus.html" target="_blank">诚聘英才</a><span>|</span><a href="http://www.boqii.com/contact.html" target="_blank">联系我们</a><span>|</span><a href="http://www.boqii.com/sitemap.html" target="_blank">网站地图</a><span>|</span><a href="http://www.boqii.com/complaints.html" target="_blank">意见反馈</a><span>|</span><a href="http://www.boqii.com/help.html" target="_blank">帮助中心</a><span>|</span>客服热线：400-820-6098</p>
+            <p class="copy">Copyright &copy; 2007-2015 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有 <a target="_blank" href="http://www.miibeian.gov.cn/">沪ICP备13034501号-2</a>&nbsp;增值电信业务经营许可证：<a target="_blank" href="http://www.miibeian.gov.cn/">沪B2-20140120</a></p>
+            <p>
+                <a rel="nofollow" target="_blank" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20131022163114962"><img width="100" height="35" src="images/foot_gs.png"></a>
+                <a rel="nofollow" target="_blank" href="http://www.boqii.com/ads.php"><img width="100" height="35" src="images/foot_cx.png"></a>
+                <a rel="nofollow" target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&amp;ct=df&amp;a=1&amp;pa=0.1636424780320953"><img width="100" height="35" src="images/foot_kx.png"></a>
+                <a rel="nofollow" target="_blank" href="http://www.zx110.org/"><img width="100" height="35" src="images/foot_zx.png"></a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 底部结束 -->
+<script src="js/jquery-1.8.min.js"></script>
+<script src="js/jquery.placeholder.min.js"></script>
+<script src="js/jquery.SuperSlide.js"></script>
+<script src="js/list.js"></script>
+</body>
+</html>

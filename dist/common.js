@@ -1,2 +1,0 @@
-/* ! CompressJs by Yangfei 15-03-20*/
-!function(a){a.fn.keyWords=function(){this.focus(function(){this.defaultValue==a(this).val()&&a(this).val("")}).blur(function(){var b=a(this);""==b.val()?b.val(this.defaultValue).css("color","#999"):b.css("color","#000")})}}(jQuery);

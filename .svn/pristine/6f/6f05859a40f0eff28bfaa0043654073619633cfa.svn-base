@@ -1,0 +1,67 @@
+(function(){
+
+	$(".showorderdetail").click(function(){
+
+		if( $(this).hasClass("active") ){
+			$(".order_detail").hide();
+			$(this).removeClass("active");
+			$(this).find("icons").removeClass("icon_blue_arrowup");
+
+		}else{
+			$(".order_detail").show();
+			$(this).addClass("active");
+			$(this).find("span").text("收起订单");
+			$(this).find("icons").addClass("icon_blue_arrowup");
+		}
+
+	});
+
+	$("#balance_money").click(function(){
+
+		if( $(this).is(":checked") ){
+			$(".balance_passwd").show();
+			$(".paymoney").show();
+		}else{
+			$(".balance_passwd").hide();
+			$(".paymoney").hide();
+		}
+
+	});
+
+	$(".bank_payment").on("click",".bank_logo",function(){
+
+		var $radio = $(this).siblings(".radio_choice");
+
+		$(".bank_logo",$(".bank_payment")).removeClass("active");
+
+		$(this).addClass("active");
+
+	});
+
+	$(".bank_payment").on("click",".radio_choice",function(){
+		$(".bank_logo",$(".bank_payment")).removeClass("active");
+		if( $(this).is(":checked") ){
+			$(this).siblings(".bank_logo").addClass("active");
+		}
+
+	});
+
+	$('.bank_payment_choice').find("div:gt(7)").hide();
+
+
+	$(".more_banks").click(function(){
+
+		if( $(this).hasClass("active") ){
+			$(this).removeClass("active");
+			$('.bank_payment_choice').find("div:gt(7)").hide();
+		}else{
+			$(this).addClass("active");
+			$('.bank_payment_choice').find("div:gt(7)").show();
+			$(this).find("span").text("收起更多");
+		}
+
+	});
+
+
+
+}).call(this);

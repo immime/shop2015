@@ -1,0 +1,409 @@
+@charset "utf-8";
+
+@import "../common/var";
+/*商品详细*/
+.crumbs_content{background:#f3f3f3;height:38px;line-height:38px;}
+.crumbs{
+	@extend .w1190;
+	@extend .mrauto;
+	font-family:"SimSun";
+	color:$color_999;
+}
+.shop_t{}
+.shop_t_l{
+	width:350px;
+	height:420px;
+	border:1px solid $color_e6e6e6;
+	background:#fff;
+	padding:19px;
+	.pro_big{
+		width:360px;
+		height:360px;
+		overflow:hidden;
+		img{
+			width:360px;
+			height:360px;
+			display:none;
+			&.cur{
+				display:block;
+			}
+		}
+	}
+	.pro_small{
+		padding:15px 5px 0;
+		overflow:hidden;
+		.btn{
+			width:9px;
+			height:16px;
+			margin-top:18px;
+			cursor:pointer;
+		}
+		.pro_prev{
+			background:url("#{$background}icon.png") no-repeat -195px -266px;
+			margin-right:11px;
+			&:hover{
+				background-position:-195px -287px;
+			}
+			&.no_allow{
+				background-position:-195px -244px;
+				&:hover{
+					background-position:-195px -244px;
+				}
+			}
+		}
+		.pro_s_cent{
+			width:300px;
+			overflow:hidden;
+			.pro_s_img{
+				width:1000px;position:relative;
+				img{
+					float:left;
+					width:50px;
+					height:50px;
+					border:1px solid #f3f3f3;
+					margin-right:10px;
+					cursor:pointer;
+					&.current{border:1px solid $color_hover;}
+				}
+			}
+		}
+		.pro_next{
+			background:url("#{$background}icon.png") no-repeat -227px -266px;
+			margin-left:11px;
+			&:hover{
+				background-position:-227px -287px;
+			}
+			&.no_allow{
+				background-position:-227px -244px;
+				&:hover{
+					background-position:-227px -244px;
+				}
+			}
+		}
+	}
+}
+.shop_t_c{width:530px;margin-left:20px;}
+.shop_name{font:20px/28px "Microsoft YaHei";color:$color_333;}
+.shop_ad{
+	font:normal 14px/16px "Microsoft YaHei";padding:8px 0 10px;overflow:hidden;
+	em{
+		color:$color_hover;
+	}
+	span{
+		color:$color_08d;
+		text-decoration:underline;
+	}
+}
+.shop_t_c_c{
+	background:#fef8f6;border-top:1px solid #f3f3f3;padding:0 20px 10px;font-family:Arial,"SimSun";
+	dl{
+		overflow:hidden;margin-top:15px;
+		dt{
+			float:left;width:70px;text-align:right;color:$color;
+			&.j{padding-top:8px;}
+		}
+		dd{
+			float:left;width:420px;
+		}
+	}
+}
+.bq_price{
+	font:30px/32px "Arial";
+	color:$color_hover;
+	overflow:hidden;
+	span{
+		float:left;
+	}
+	em{
+		float:left;
+		width:50px;
+		height:14px;
+		margin:3px 0 0 8px;
+		background:url("#{$background}icon.png") no-repeat -262px -222px;
+	}
+}
+.dou{color:$color_999;padding-top:8px;}
+.oldprice{color:$color_999;text-decoration:line-through;font-size:14px;}
+.yh{color:$color_hover;padding-bottom:10px;}
+.yh_text{color:#fff;background:$color_hover;padding:2px 4px;margin-right:5px;}
+.xz{color:$color;padding:5px 0 10px;}
+.shop_t_c_b{
+	padding:0 20px;color:$color;
+	dl{
+		overflow:hidden;margin-top:14px;font-family:Arial,"SimSun";
+		dt{
+			float:left;width:70px;text-align:right;padding:8px 0 0;
+			&.j{padding-top:8px;}
+		}
+		dd{
+			float:left;width:420px;
+			select{
+				float:left;height:34px;
+			}
+			.support{padding:10px 0 0 10px;}
+		}
+	}
+}
+.change{border:1px solid $color_ccc;float:left;padding:8px 10px;margin-right:5px;color:$color_333;cursor:pointer;}
+.change.current{border:2px solid $color_hover;background:url("#{$background}g.jpg") no-repeat right bottom;padding:7px 9px;}
+.amount{
+	overflow:hidden;float:left;
+	span{
+		float:left;width:18px;height:23px;color:$color_333;font-size:16px;padding-top:3px;border:1px solid $color_ccc;text-align:center;cursor:pointer;
+	}
+	input{
+		border:1px solid $color_ccc;border-left:none;border-right:none;text-align:center;width:50px;height:26px;line-height:26px;padding:0 5px;font-weight:bold;float:left;
+	}
+}
+.jian{float:left;padding:8px 0 0 5px;}
+.gotobuy{width:130px;height:40px;background:$color_hover;color:#fff;font:16px/40px "Microsoft YaHei";cursor:pointer;margin-right:10px;}
+.gotobuy:hover{background:#c20;}
+.tocat{background:url("#{$background}btn.png") no-repeat 0 0;width:150px;height:40px;cursor:pointer;}
+.tocat:hover{background-position:0 -50px;}
+#collect{background:url("#{$background}btn.png") no-repeat -163px -12px;width:75px;height:16px;cursor:pointer;margin:13px 0 0 13px;}
+#collect:hover{background-position:-163px -62px;}
+.shop_t_r{width:228px;border:1px solid $color_e6e6e6;}
+.bz{background:url("#{$background}btn.png") no-repeat 0 -99px;height:99px;}
+.brand{
+	border-top:1px solid $color_e6e6e6;
+	padding:10px;color:$color;font-family:Arial,"SimSun";
+	dl{
+		margin-top:10px;overflow:hidden;
+		dt{
+			float:left;width:60px;text-align:right;
+		}
+		dd{
+			float:left;width:145px;
+		}
+		a{
+			color:$color_08d;
+		}
+	}
+	ul{
+		border-top:1px dashed $color_ccc;
+		li{
+			margin-top:15px;
+			em{
+				width:10px;height:12px;background:url("#{$background}icon.png") no-repeat -262px -244px;@extend .inline-block;margin-right:4px;
+			}
+			a{
+				width:90px;height:28px;background:url("#{$background}btn.png") no-repeat 0 -206px;@extend .inline-block;margin-left:4px;
+			}
+		}
+	}
+}
+.pl_top{padding:5px 0 10px;}
+.detail_az{position:static;width:208px;border-top:1px solid $color_e6e6e6;}
+.share{border-top:1px solid $color_e6e6e6;padding:5px 10px;overflow:hidden;font-family:"SimSun";}
+.share_text{margin-top:5px;color:$color;}
+.pro_cont{overflow:hidden;}
+/*左侧*/
+.leftSide{width:190px;}
+.proTit{font-weight:normal;}
+.goodsCate .goodsCateList_li.goodsCateList_on2{border-right:1px solid #ddd;}
+/*右侧*/
+.rightSide{width:990px;}
+.pro_tag_body,.pro_tag{height:40px;}
+.pro_tag_cont{
+	background:#f3f3f3;height:40px;border:1px solid $color_ddd;
+	span{
+		float:left;padding:0 20px;position:relative;font:14px/40px "Microsoft YaHei";color:$color_333;border-right:1px solid $color_ddd;cursor:pointer;
+		em{color:$color_hover;}
+		&.current{
+			color:$color_hover;
+			background:#fff;
+			border-top:3px solid $color_hover;
+			top:-1px;
+			font:14px/39px "Microsoft YaHei";
+		}
+	}
+	a{
+		float:right;background:$color_hover;color:#fff;font:16px/34px "Microsoft YaHei";padding:0 15px;margin:3px 3px 0 0;
+		&:hover{color:#fff!important;}
+	}
+}
+.pro_tag.abs{
+	position:absolute;left:0;top:0;z-index:99;width:100%;background:#f3f3f3;border-bottom:1px solid $color_ddd;
+	.pro_tag_cont{
+		width:988px;position:relative;left:50%;margin-left:-395px;top:-1px;
+	}
+}
+.xx_tit{
+	height:30px;background:url("#{$background}tit.jpg") no-repeat;overflow:hidden;
+	span{font:24px/26px "Microsoft YaHei";margin-left:75px;color:#f50;}
+	em{font:18px/20px "Arial";margin:15px 0 0 10px;color:$color_999;}
+}
+/*商品评论*/
+.pro_pl{border:1px solid $color_ddd;padding:10px 20px 20px;}
+.product_introduct{border-top:none;}
+.pro_pl_tit{
+	height:30px;border-bottom:2px solid #ccc;
+	h2{font:20px/30px "Microsoft YaHei";border-bottom:2px solid $color_hover;@extend .inline-block;color:$color_hover;}
+}
+.pl_body_top{font-family:Arial,"SimSun";background:#f3f3f3;border-bottom:1px solid $color_e6e6e6;height:138px;overflow:hidden;}
+.pl_l{
+	width:200px;text-align:center;
+	.score{float:none;@extend .inline-block;margin-top:10px;}
+}
+.pl_score{
+	margin-top:10px;color:$color_hover;font-size:16px;
+	span{color:$color_hover;font-size:50px;font-family:Arial, "Microsoft YaHei";}
+}
+.pl_num{color:$color;margin-top:10px;}
+.pl_c{
+	background:#fff;border-left:1px solid $color_e6e6e6;border-right:1px solid $color_e6e6e6;height:123px;width:376px;padding:15px 85px 0;
+	dl{
+		margin-top:17px;overflow:hidden;
+		dt{float:left;width:70px;text-align:right;color:$color;}
+		dd{float:left;width:300px;}
+	}
+}
+.line{
+	width:300px;background:$color_e6e6e6;height:10px;margin-top:3px;
+	.precent{width:300px;background:$color_hover;height:10px;}
+}
+.pl_r{
+	width:180px;padding:10px;color:$color_333;
+	dl{
+		dt{}
+		dd{
+			margin-top:7px;
+			span{color:$color_hover}
+		}
+	}
+}
+.pl_btn{background:#f65;color:#fff;height:30px;line-height:30px;padding:0 15px;float:left;}
+.pl_tag{
+	height:30px;border-bottom:1px solid #e6e6e6;
+	span{
+		float:left;padding:0 20px;position:relative;font:12px/30px Arial, "SimSun";color:$color_333;cursor:pointer;
+		&.current{
+			border-bottom:1px solid $color_hover;font:12px/30px Arial, "SimSun";
+		}
+	}
+}
+.pl_list{
+	overflow:hidden;padding:20px 0 5px;border-bottom:1px dashed $color_ccc;
+}
+.pl_head{
+	width:40px;height:40px;padding:0 30px;
+	img{width:40px;height:40px;border-radius:40px;}
+	p{width:40px;text-align:center;color:$color_333;font-family:Arial, "SimSun";}
+}
+.pl_right{width:848px;font-family:Arial, "SimSun";}
+.pl_right dl{overflow:hidden;margin-bottom:13px;color:$color_333;}
+.pl_right dl dt{float:left;color:$color;width:36px;text-align:right;}
+.pl_right dl dd{float:left;width:800px;}
+.ce53{color:$color_hover;}
+.c999{color:$color_999;}
+.pl_right dl dd img{
+	float:left;
+	width:50px;
+	height:50px;
+	border:1px solid #f3f3f3;
+	margin-right:10px;
+}
+.pl_k{}
+.arr{background:url("#{$background}arrow.jpg") no-repeat;width:11px;height:7px;position:relative;left:20px;}
+.pl_k_body{background:#f8f8f8;border:1px solid #e6e6e6;margin-top:-1px;padding:10px 10px 15px;}
+.replay{
+	border:1px solid #ddd;background:#fff;padding:0 10px;height:26px; line-height:26px;
+	input{width:600px;height:20px;border:none;}
+}
+.replay_btn{background:#f65;color:#fff;height:24px;line-height:24px;padding:0 10px;float:right;margin-top:10px;}
+.replay_list{clear:both;border-bottom:1px solid #e6e6e6;height:42px;line-height:42px;color:#333;}
+.page_pl{
+	text-align:right;padding:20px 0 0;
+	span{
+		border:1px solid #e6e6e6;background:#fff;padding:6px 10px;color:#333;margin-left:5px;cursor:pointer;
+		&.current{border:1px solid #f8f8f8;color:#f65;background:#f8f8f8;}
+	}
+}
+.pl_page{
+	text-align:right;padding:30px 0 10px;font-size:14px;
+	span{
+		border:1px solid #e6e6e6;background:#f3f3f3;padding:10px 15px;color:#333;margin-left:5px;cursor:pointer;
+		&.current{border:1px solid $color_hover;color:#fff;background:$color_hover;}
+		&:hover{border:1px solid $color_hover;color:$color_hover;background:#fff;}
+	}
+	em{color:$color_333;padding:0 10px;}
+}
+.replay_num,.praise{cursor:pointer;}
+/*售后服务*/
+.baozhang{
+	dl{
+		padding:20px;border-bottom:1px dashed $color_ccc;overflow:hidden;
+		dt{
+			background:url("#{$background}btn.png") no-repeat;width:84px;height:84px;float:left;margin-right:20px;
+			&.a{background-position:0 -243px;}
+			&.b{background-position:-97px -243px;}
+			&.c{background-position:-193px -243px;}
+		}
+		dd{
+			padding-top:10px;font:16px/24px "Microsoft YaHei";color:$color_333;
+			&.name{color:#ef5f3f;font:20px/24px "Microsoft YaHei";}
+		}
+	}
+}
+/*商品咨询*/
+.zx{}
+.zx_list{padding:0 5px 15px;border-bottom:1px dashed $color_ccc;font-family:Arial, "SimSun";}
+.zx_list>div{margin-top:13px;}
+.zx_net{color:$color_999;}
+.zx_ask{color:$color;}
+.zx_replay{color:$color_hover;}
+.zx_ask span,.zx_replay span{@extend .inline-block;width:870px;vertical-align:top;}
+.fbzx{
+	color:$color;font-family:Arial, "SimSun";
+	strong{display:block;padding:20px 0 10px;}
+}
+.fbzx_input{
+	textarea{width:580px;height:70px;border:1px solid #ddd;padding:5px;}
+}
+.fbzx_tj{
+	input{
+		width:76px;height:22px;text-align:center;color:#fff;background:$color_hover;cursor:pointer;
+		&:hover{background:#c20;}
+	}
+}
+/*猜你喜欢*/
+.cai{
+	border:1px solid $color_ddd;padding:0;
+	h2{
+		font-size:16px;color:$color_333;padding:10px 0 0 10px;font-weight:normal;
+	}
+}
+.cai_body{
+	overflow:hidden;
+	dl{
+		float:left;width:177px;padding:20px 10px 10px;
+		dt{
+			width:120px;height:120px;overflow:hidden;
+			img{
+				width:120px;height:120px;display:block;margin-left:28px;transition:all .3s ease;zoom:1;
+				&:hover{
+					// transform:scale(1.1);
+				}
+			}
+		}
+		dd{
+			font-family:arial,"SimSun";padding-top:7px;overflow:hidden;
+			&.name{
+				height:40px;line-height:18px;
+			}
+			span{
+				width:50%;
+				&.l{
+					float:left;color:$color_hover;font-size:14px;font-family:arial,"SimSun";
+				}
+				&.r{
+					float:right;color:$color;text-align:right;
+				}
+			}
+		}
+	}
+}
+/***media query***/
+@media screen and (max-width:1190px){
+	
+}
