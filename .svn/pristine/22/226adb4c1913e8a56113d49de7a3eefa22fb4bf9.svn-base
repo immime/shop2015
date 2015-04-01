@@ -158,7 +158,7 @@ input{
 	color:#FFF;
 	background:$color_orange;
 	&:hover{
-		color:#FFF !important;
+		color:#FFF;
 	}
 }
 
@@ -214,12 +214,6 @@ input{
 			padding:10px;
 			background: #fef2ee;
 		}
-		&.active_huangou{
-			background: #f0f5fc;
-		}
-		&.active_manzeng{
-			background: #f8fff2;
-		}
 	}
 
 	.title_manjian{
@@ -233,9 +227,7 @@ input{
 	.title_huangou{
 		@include active_tags(#0080cc);
 	}
-	.title_duomai{
-		@include active_tags($color_orange);
-	}
+
 	.active_info{
 		color:$color_999;
 		em{
@@ -260,23 +252,18 @@ input{
 	.product_price{
 		color:#999999;
 	}
-	.product_spec{
-		margin-bottom:10px;
-	}
 	.product_operation{
 		color:#999999;
 		margin-bottom:5px;
 	}
 	.cart_column_02{
-		width: 240px;
 		text-align: left;
-		margin-left: 10px;
 	}
 	.product_youhuiprice{
 		@extend %inline-block;
 		text-align: center;
 		border:1px dashed #ee5533;
-		padding:3px 18px;
+		padding:3px 20px;
 		color:#ee5533;
 	}
 	.product_price{
@@ -299,15 +286,6 @@ input{
 	//赠品列表
 	.present_list{
 		@extend .clearfix;
-		&.huangou_present_list{
-			background:#f0f5fc;
-		}
-		&.manzeng_present_list{
-			background:#f8fff2;
-		}
-		&.duomai_present_list{
-			background:#fef2ee;
-		}
 		.tag_zengpin{
 			@include title_tags(#66cc00,true);
 		}
@@ -366,12 +344,6 @@ input{
 			// display: none;
 		}
 	}
-	//单品赠品
-	.item_present{
-		clear: both;
-		margin-left: 39px;
-		padding-top: 15px;
-	}
 
 }
 
@@ -379,21 +351,12 @@ input{
 	border:1px solid #dddddd;
 	border-top:none;
 	padding:20px 12px;
-	padding-bottom:10px;
-	@extend .clearfix;
-	a{
-		color:#333;
-	}
-	.delete_shopcarts{
-		margin:0 24px;
-	}
 	.icon_checked{
 		margin-right: 0px;
 	}
 	.cart_jiesuan{
 		float:right;
-		margin-top: -10px;
-		*margin-right: 10px;
+
 	}
 	.product_sum_info{
 		text-align: right;
@@ -418,10 +381,6 @@ input{
 			padding:4px 13px;
 			@extend %yehei;
 			margin-left:18px;
-			&:hover{
-				color:#FFF !important;
-				background: #cc2200;
-			}
 		}
 	}
 }
@@ -545,6 +504,12 @@ input{
 	}
 }
 
+//购物车对话框
+.shopcart_dialog{
+	display:none;
+	position: absolute;
+}
+
 //对话框
 .model_dialog{
 	// display: none;
@@ -605,168 +570,6 @@ input{
 		text-align: center;
 	}
 }
-
-//购物车列表对话框
-.shopcart_dialog{
-	display:none;
-	position: absolute;
-}
-
-//用户登录弹出框
-.user_dialog{
-	width:518px;
-	height: 468px;
-	display: none;
-	position: absolute;
-	left:50%;
-	top:50%;
-	margin-left:-259px;
-	margin-top:-150px;
-	z-index: 102;
-	// padding:30px 48px;
-	.model_dialog_body{
-		padding:30px 48px;
-		padding-right: 56px;
-		padding-bottom: 0;
-	}
-	.tab_header{
-		@extend .clearfix;
-		li{
-			float: left;
-			width:208px;
-			text-align: center;
-			height: 38px;
-			line-height: 38px;
-			font-size: 20px;
-			color:$color_333;
-			@extend %yehei;
-			cursor: pointer;
-			background:#f3f3f3;
-			margin-left:-1px;
-			div{
-				border:1px solid #dddddd;
-			}
-			&.active{
-				color:#ff6655;
-				padding-top: 8px;
-				margin-top: -10px;
-				background: #FFF;
-				border-top:3px solid $color_orange;
-				div{
-					padding-top: 8px;
-					margin-top: -8px;
-					border-top: none;
-					border-bottom: none;
-				}
-			}
-		}
-	}
-	.username_con,.pwd_con{
-		border:1px solid #ddd;
-		margin-bottom: -1px;
-		// padding:13px 0;
-		padding-left:32px;
-		width:380px;
-		input{
-			margin:13px 0;
-			margin-left:5px;
-			width:90%;
-		}
-	}
-	.login_container{
-		margin-top:38px;
-	}
-	.register_container{
-		margin-top:22px;
-		.register_switch{
-			margin-bottom:18px;
-		}
-		.username_con,.pwd_con{
-			padding-left:15px;
-			width: 397px;
-			span{
-				font-size:16px;
-				font-family: "Microsoft YaHei";
-				color:$color;
-			}
-		}
-
-		.validate_con{
-			&.ok{
-				background:url(#{$background}icons/list_icon.png) no-repeat right -465px;
-			}
-			&.error{
-				border:1px solid #ff6655;
-				margin-bottom: 0px;
-				background:url(#{$background}icons/list_icon.png) no-repeat right -415px;
-			}
-		}
-
-		.register_input{
-			width:60%;
-		}
-	}
-	.username_con{
-		background-position:11px -319px;
-	}
-	.pwd_con{
-		background-position:10px -357px;
-	}
-	.error_tips{
-		border:1px solid #ffbdbf;
-		background:#ffebec;
-		color:#ff6655;
-		padding:8px 10px;
-		margin-top:10px;
-		// width:392px;
-	}
-	.auto_login{
-		@extend .clearfix;
-		margin:12px 0 14px 0;
-		color:$color;
-		.auto_login01{
-			float: left;
-		}
-		.auto_login02{
-			float: right;
-		}
-	}
-	.login_btn{
-		a{
-			display: block;
-			padding:10px 0;
-			background:#ff6655;
-			border:1px solid #e35342;
-			letter-spacing: 3px;
-			font-size: 20px;
-			color:#FFF;
-			text-align: center;
-			border-radius: 2px;
-			@extend %yehei;
-			&:hover{
-				color:#FFF !important;
-				background:#e35342;
-			}
-		}
-	}
-	.user_register_btn{
-		margin-top: 30px;
-	}
-	.union_login_img{
-		height: 18px;
-		margin-top: 32px;
-		background: url(#{$background}icons/union_login.gif) no-repeat;
-	}
-	.union_login{
-		text-align: center;
-		color:$color;
-		margin-top:15px;
-	}
-	.email_reg{
-		display: none;
-	}
-}
-
 //按钮一些样式
 .btn{
 	padding:5px 20px;
@@ -1885,8 +1688,4 @@ input{
 }
 .floatRight{
 	float:right;
-}
-
-#mobile_reg,#email_reg{
-	vertical-align:middle; margin-top:-2px; margin-bottom:1px;
 }
