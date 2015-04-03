@@ -721,9 +721,11 @@ img {
 }
 .user_dialog .login_container {
   margin-top: 38px;
+  *margin-top: 76px;
 }
 .user_dialog .register_container {
   margin-top: 22px;
+  *margin-top: 44px;
 }
 .user_dialog .register_container .register_switch {
   margin-bottom: 18px;
@@ -731,8 +733,12 @@ img {
 .user_dialog .register_container .username_con, .user_dialog .register_container .pwd_con {
   padding-left: 15px;
   width: 397px;
+  *position: relative;
 }
 .user_dialog .register_container .username_con span, .user_dialog .register_container .pwd_con span {
+  *position: absolute;
+  top: 10px;
+  left: 10px;
   font-size: 16px;
   font-family: "Microsoft YaHei";
   color: #666;
@@ -747,6 +753,7 @@ img {
 }
 .user_dialog .register_container .register_input {
   width: 60%;
+  *margin-left: 70px;
 }
 .user_dialog .username_con {
   background-position: 11px -319px;
@@ -764,6 +771,7 @@ img {
 .user_dialog .auto_login {
   margin: 12px 0 14px 0;
   color: #666;
+  *overflow: hidden;
 }
 .user_dialog .auto_login .auto_login01 {
   float: left;

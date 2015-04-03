@@ -680,16 +680,22 @@ input{
 	}
 	.login_container{
 		margin-top:38px;
+		*margin-top:76px;
 	}
 	.register_container{
 		margin-top:22px;
+		*margin-top:44px;
 		.register_switch{
 			margin-bottom:18px;
 		}
 		.username_con,.pwd_con{
 			padding-left:15px;
 			width: 397px;
+			*position: relative;
 			span{
+				*position: absolute;
+				top:10px;
+				left:10px;
 				font-size:16px;
 				font-family: "Microsoft YaHei";
 				color:$color;
@@ -709,6 +715,7 @@ input{
 
 		.register_input{
 			width:60%;
+			*margin-left: 70px;
 		}
 	}
 	.username_con{
@@ -729,6 +736,7 @@ input{
 		@extend .clearfix;
 		margin:12px 0 14px 0;
 		color:$color;
+		*overflow: hidden;
 		.auto_login01{
 			float: left;
 		}
@@ -756,6 +764,7 @@ input{
 	}
 	.user_register_btn{
 		margin-top: 30px;
+		// *margin-top: 60px;
 	}
 	.union_login_img{
 		height: 18px;
