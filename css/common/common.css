@@ -30,7 +30,7 @@ ul {
 }
 
 /*****common****/
-.w1190, .toolbar_auto, .top_auto, .nav_auto, .body_auto {
+.w1190, .toolbar_auto, .top_auto, .nav_auto, .body_auto, .crumbs {
   width: 1190px;
 }
 
@@ -38,7 +38,7 @@ ul {
   width: 990px;
 }
 
-.mrauto, .toolbar_auto, .top_auto, .nav_auto, .foot_s_body, .link_auto, .footer_auto, .body_auto {
+.mrauto, .toolbar_auto, .top_auto, .nav_auto, .foot_s_body, .link_auto, .footer_auto, .body_auto, .crumbs {
   margin-left: auto;
   margin-right: auto;
 }
@@ -58,7 +58,7 @@ ul {
 
 /***media query***/
 @media screen and (max-width: 1190px) {
-  .w1190, .toolbar_auto, .top_auto, .nav_auto, .body_auto {
+  .w1190, .toolbar_auto, .top_auto, .nav_auto, .body_auto, .crumbs {
     width: 990px;
   }
 }
@@ -95,6 +95,7 @@ ul {
 
 .clearfix, .brands {
   *height: 1%;
+  zoom: 1;
 }
 
 a {
@@ -732,6 +733,18 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/*crumbs*/
+.crumbs_content {
+  background: #f3f3f3;
+  height: 38px;
+  line-height: 38px;
+}
+
+.crumbs {
+  font-family: "SimSun";
+  color: #999;
 }
 
 /***media query***/

@@ -32,7 +32,7 @@
 		var _t=$(this);
 		_t.addClass('current').siblings('span').removeClass();
 		var index=_t.index();
-		var top=$('.pro_pl').eq(index).offset().top-39;
+		var top=$('.pro_pl').eq(index).offset().top-35;
 		$('html,body').animate({scrollTop:top},200);
 	});
 	var top=$('.pro_tag_cont').offset().top;
@@ -57,3 +57,4 @@
 		$(this).siblings('.pl_k').toggle();
 	});
 }).call(this);
+9107

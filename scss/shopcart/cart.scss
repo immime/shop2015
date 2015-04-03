@@ -42,6 +42,11 @@
 
 body{
 	font-family: "SimSun";
+	background: #f3f3f3;
+}
+
+#toolbar,#footer{
+	background: #ffffff;
 }
 
 input{
@@ -52,7 +57,7 @@ input{
 	cursor: not-allowed;
 }
 
-.top_auto{
+.top_auto,.toolbar_auto{
 	@extend .w990;
 }
 
@@ -1084,7 +1089,7 @@ input{
 		height: 40px;
 		line-height: 36px;
 		vertical-align: middle;
-		background-position: left -394px;
+		background-position: left -531px;
 		background-repeat: no-repeat;
 		padding-left:40px;
 	}
@@ -1146,6 +1151,9 @@ input{
 	}
 	.bank_logo{
 		border:1px solid #dddddd;
+	}
+	.error_reason01{
+		margin-bottom:15px !important;
 	}
 }
 

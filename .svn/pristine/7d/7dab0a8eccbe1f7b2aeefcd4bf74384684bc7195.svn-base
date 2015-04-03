@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+@import "../common/var";
+/*头部*/
+#channel{
+	height:360px;position:relative;overflow:hidden;
+	ul{
+		position:absolute;width:100%;height:360px;z-index:1;
+		li{
+			display:none;width:100%;height:360px;overflow:hidden;
+			&.cur{display:block;}
+			a{
+				float:left;width:820px;height:360px;position:relative;left:50%;top:0;margin-left:-425px;
+			}
+		}
+	}
+}
+.channel_num{
+	position:absolute;z-index:2;overflow:hidden;left:50%;margin-left:-60px;bottom:10px;
+	span{
+		float:left;width:10px;height:10px;background:url("#{$background}icon.png") no-repeat -277px -266px;margin:0 3px;cursor:pointer;
+		&.current{
+			background-position:-262px -266px;
+		}
+	}
+}
+.channel_left_menu{
+	position:absolute;z-index:3;width:160px;left:50%;margin-left:-595px;top:8px;height:340px;background:#fff;padding:4px 15px 0;
+	a{
+		display:block;
+		font:14px/32px "Microsoft YaHei";color:$color_333;border-bottom:1px dotted $color_ccc;
+		&.last{border:none;}
+	}
+}
+.channel_r{
+	position:absolute;z-index:3;width:200px;left:50%;margin-left:395px;top:8px;height:344px;
+	p{
+		margin-bottom:1px;
+		img{display:block;}
+	}
+}
+.channel_r_img{
+	overflow:hidden;background:#fff;
+	a{
+		float:left;width:99px;height:78px;
+		&.borderbc{border-bottom:1px dotted $color_ccc;}
+		&.borderrc{border-right:1px dotted $color_ccc;}
+		&.borderbf{border-bottom:1px solid #fff;}
+		&.borderrf{border-right:1px solid #fff;}
+		img{display:block;}
+		span{display:none;}
+	}
+}
+/*狗狗推荐商品*/
+.groom_pro{}
+.groom_pro_t{
+	overflow:hidden;line-height:22px;border-bottom:2px solid $color_hover;
+	h2{
+		float:left;
+		color:$color_hover;
+		padding-right:55px;
+		font:normal 20px/28px "Microsoft YaHei";
+	}
+	.groom_tab{
+		a{
+			font:16px/32px "Microsoft YaHei";float:left;height:32px;background:url("#{$background}line.jpg") no-repeat right 8px;padding:0 15px;
+			color:$color_333;
+			&.current{
+				color:#fff;padding:0 16px;margin:0 -1px;
+				background:$color_hover;
+			}
+			&:hover{
+				color:#fff!important;padding:0 16px;margin:0 -1px;
+				background:$color_hover;
+			}
+		}
+	}
+	.groom_r{
+		a{
+			font:14px/32px "Microsoft YaHei";color:$color;margin:0 0 0 10px;
+		}
+	}
+}
+.groom_pro_b{}
+.groom_pro_b_body{
+	overflow:hidden;height:210px;
+	dl{
+		float:left;width:176px;border:1px solid #fff;border-bottom:1px solid $color_e6e6e6;border-top:none;padding:20px 10px 15px;height:173px;
+		&:hover{
+			border:1px solid $color_hover;
+			border-top:none;
+		}
+		&.first{
+			border-left:1px solid $color_e6e6e6;
+			&:hover{
+				border:1px solid $color_hover;
+				border-top:none;
+			}
+		}
+		&.six{
+			width:178px;
+			border-right:1px solid $color_e6e6e6;
+			&:hover{
+				border:1px solid $color_hover;
+				border-top:none;
+			}
+		}
+		dt{
+			width:120px;height:120px;overflow:hidden;
+			img{
+				width:120px;height:120px;display:block;margin-left:28px;transition:all .3s ease;zoom:1;
+				&:hover{
+					// transform:scale(1.1);
+				}
+			}
+		}
+		dd{
+			font-family:arial,"Microsoft YaHei";@extend .text-overflow;padding-top:10px;
+			a{
+				font-size:14px;color:$color;
+				&:hover{
+					color:$color_hover;
+				}
+			}
+			span{
+				width:50%;
+				&.l{
+					float:left;color:$color_hover;font-size:14px;font-family:arial,"SimSun";
+				}
+				&.r{
+					float:right;color:$color;text-align:right;
+				}
+			}
+		}
+	}
+}
+/*狗狗专区*/
+.dog_area{overflow:hidden;}
+.dog_left{
+	width:190px;position:relative;
+	ul{
+		border-left:1px solid $color_e6e6e6;
+		li{
+			border-top:1px solid $color_e6e6e6;border-right:1px solid $color_e6e6e6;background:#f3f3f3;height:40px;text-align:center;
+			&:hover{background:#fff;border-right:1px solid #fff;}
+			a{
+				display:block;height:40px;font:16px/40px "Microsoft YaHei";color:$color_333;
+			}
+			&.current{
+				background:#fff;border-right:1px solid #fff;
+				a{color:$color_hover;}
+			}
+		}
+	}
+}
+.dog_l_f{position:absolute;left:0;top:0;width:37px;height:42px;background:url("#{$background}btn.png") no-repeat -285px 0;color:#fff;font:14px/32px "Microsoft YaHei";padding-left:5px;}
+.dog_l_z{
+	font:22px/72px "Microsoft YaHei";background:#f90;height:72px;text-align:center;padding-left:20px;
+	a{
+		color:#fff;
+		&:hover{color:#fff!important;}
+	}
+}
+.dog_l_b{
+	border:1px solid $color_e6e6e6;padding:5px 15px 0;overflow:hidden;height:138px;
+	a{float:left;width:79px;font:14px/18px "Microsoft YaHei";color:$color;margin-top:10px;}
+}
+
+.dog_area_center{border-top:2px solid #f90;width:800px;}
+.dog_c_t{
+	overflow:hidden;height:419px;border-right:1px solid $color_e6e6e6;border-bottom:1px solid $color_e6e6e6;padding:0 2px 0 1px;
+	dl{
+		float:left;width:175px;padding:20px 12px 15px;height:174px;
+		dt{
+			width:120px;height:120px;overflow:hidden;
+			img{
+				width:120px;height:120px;display:block;margin-left:28px;transition:all .3s ease;zoom:1;
+				&:hover{
+					// transform:scale(1.1);
+				}
+			}
+		}
+		dd{
+			font-family:arial,"Microsoft YaHei";@extend .text-overflow;padding-top:7px;
+			a{
+				font-size:14px;color:$color;
+				&:hover{
+					color:$color_hover;
+				}
+			}
+			span{
+				width:50%;
+				&.l{
+					float:left;color:$color_hover;font-size:14px;font-family:arial,"SimSun";
+				}
+				&.r{
+					float:right;color:$color;text-align:right;
+				}
+			}
+		}
+	}
+}
+.dog_area_right{
+	width:190px;border-top:2px solid #f90;padding:0 0 0 10px;
+	img{margin-top:10px;display:block;}
+}
+/*医疗保健*/
+.dog2_area .dog_l_f{background:url("#{$background}btn.png") no-repeat -285px -50px;}
+.dog2_area .dog_l_z{background:#00b0cf;}
+.dog2_area .dog_area_center,.dog2_area .dog_area_right{border-top:2px solid #00b0cf;}
+/*生活品质*/
+.dog3_area .dog_l_f{background:url("#{$background}btn.png") no-repeat -285px -99px;}
+.dog3_area .dog_l_z{background:#f86f7c;}
+.dog3_area .dog_area_center,.dog3_area .dog_area_right{border-top:2px solid #f86f7c;}
+/*清洁卫生*/
+.dog4_area .dog_l_f{background:url("#{$background}btn.png") no-repeat -285px -149px;}
+.dog4_area .dog_l_z{background:#4aa3ff;}
+.dog4_area .dog_area_center,.dog4_area .dog_area_right{border-top:2px solid #4aa3ff;}
+/***media query***/
+@media screen and (max-width:1190px){
+	.channel_left_menu{margin-left:-495px;}
+	#channel ul li a{margin-left:-325px;}
+	.channel_num{margin-left:70px;}
+	.groom_pro_b_body dl.five{
+		border-right:1px solid $color_e6e6e6;
+		&:hover{
+			border:1px solid $color_hover;
+			border-top:none;
+		}
+	}
+}

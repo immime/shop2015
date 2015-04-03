@@ -1,0 +1,764 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 12px;
+  position: static;
+  color: #000;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+ul, dl, dd, h1, h2, h3, h4, h5, h6, form, p, input {
+  margin: 0;
+  padding: 0;
+}
+
+em, i {
+  font-style: normal;
+}
+
+img {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*****common****/
+.w1190, .toolbar_auto, .top_auto, .nav_auto, .body_auto, .crumbs {
+  width: 1190px;
+}
+
+.w990, .foot_s_body, .link_auto, .footer_auto {
+  width: 990px;
+}
+
+.mrauto, .toolbar_auto, .top_auto, .nav_auto, .foot_s_body, .link_auto, .footer_auto, .body_auto, .crumbs {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-block, .collect em, .city_l em, .toolbar_r .r, .logo, .top_search, .search_s, .search_btn, .top_ad {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/***media query***/
+@media screen and (max-width: 1190px) {
+  .w1190, .toolbar_auto, .top_auto, .nav_auto, .body_auto, .crumbs {
+    width: 990px;
+  }
+}
+.goodsCate .goodsCateTitle .dog, .goodsCate .goodsCateList_li .goodsCateSub a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.hotList .price {
+  display: inline;
+  float: left;
+}
+
+.hotList .soldNum {
+  display: inline;
+  float: right;
+}
+
+.goodsCate .goodsCateTitle .dog, .goodsCate .goodsCateList_li .goodsCateSub a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.clearfix:after, .brands:after {
+  display: block;
+  font-size: 0;
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix, .brands {
+  *height: 1%;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  color: #e53 !important;
+  text-decoration: none;
+}
+
+button, [type=button], [type=submit] {
+  border: none;
+  background: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a, area {
+  blr: expression(this.onFocus=this.blur());
+}
+
+input {
+  outline: 0;
+}
+
+a:focus {
+  outline: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.none {
+  display: none;
+}
+
+.clearfix:after, .brands:after {
+  display: block;
+  font-size: 0;
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix, .brands {
+  *height: 1%;
+}
+
+.f14, .link_auto dl dt {
+  font-size: 14px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+/*****toolbar****/
+#toolbar {
+  height: 28px;
+  line-height: 28px;
+  border-bottom: 1px solid #ddd;
+}
+
+.toolbar_auto {
+  font-family: "SimSun";
+  overflow: hidden;
+}
+
+.collect {
+  color: #333;
+  padding-right: 20px;
+}
+.collect em {
+  width: 14px;
+  height: 14px;
+  background: url("../../images/toolbar.png") no-repeat 0 0;
+  margin-right: 5px;
+}
+
+.city_l em {
+  width: 9px;
+  height: 15px;
+  background: url("../../images/toolbar.png") no-repeat -31px 0;
+  margin-right: 5px;
+}
+.city_l strong {
+  color: #e53;
+}
+
+.city_r {
+  padding-left: 10px;
+  cursor: pointer;
+  color: #333;
+}
+
+.toolbar_r {
+  color: #ccc;
+}
+.toolbar_r a {
+  color: #333;
+}
+.toolbar_r a:hover {
+  color: #e53;
+}
+.toolbar_r .r {
+  width: 15px;
+  height: 13px;
+  background: url("../../images/toolbar.png") no-repeat -59px 0;
+  cursor: pointer;
+}
+
+/*****header****/
+.top_auto {
+  padding: 15px 0;
+  height: 100px;
+}
+
+.logo {
+  width: 240px;
+  height: 100px;
+}
+.logo img {
+  width: 240px;
+  height: 100px;
+}
+
+.top_search {
+  width: 600px;
+  margin: 34px 0 0 55px;
+}
+
+.top_search_t {
+  position: relative;
+  z-index: 2;
+}
+
+.search_s {
+  width: 494px;
+  padding: 5px 10px;
+  height: 26px;
+  font: 16px/26px "Microsoft YaHei";
+  color: #666;
+  border: 3px solid #e53;
+  border-right: none;
+}
+
+.search_btn {
+  height: 42px;
+  font: 18px/40px "Microsoft YaHei";
+  background: #e53;
+  text-align: center;
+  width: 80px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.bq_suggest {
+  position: absolute;
+  top: 39px;
+  left: 0;
+  border: 3px solid #e53;
+  border-top: none;
+  background: #fff;
+  width: 514px;
+  font: 14px/22px "Microsoft YaHei";
+  padding-bottom: 5px;
+}
+.bq_suggest a {
+  color: #666;
+  display: block;
+  padding: 0 10px;
+}
+.bq_suggest a:hover {
+  background: #eee;
+}
+
+.top_search_b {
+  color: #999;
+  font-family: "SimSun";
+}
+.top_search_b a {
+  color: #999;
+}
+.top_search_b a.h {
+  color: #e53;
+}
+
+.top_ad {
+  width: 180px;
+  height: 40px;
+  margin-top: 35px;
+}
+.top_ad img {
+  width: 180px;
+  height: 40px;
+}
+
+/*****nav****/
+#nav {
+  height: 36px;
+  background: #e53;
+}
+
+.nav_auto {
+  overflow: hidden;
+}
+
+.nav_left {
+  width: 170px;
+  background: #c20;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 10px;
+}
+.nav_left a {
+  cursor: pointer;
+  display: block;
+}
+.nav_left a span {
+  float: left;
+  color: #fff;
+  font: 16px/36px "Microsoft YaHei";
+}
+.nav_left a em {
+  float: right;
+  width: 16px;
+  height: 10px;
+  background: url("../../images/toolbar.png") no-repeat 0 -21px;
+  margin-top: 13px;
+}
+
+.nav {
+  width: 650px;
+  height: 36px;
+  font: 16px/36px "Microsoft YaHei";
+  overflow: hidden;
+}
+.nav a {
+  color: #fff;
+  float: left;
+  padding: 0 17px;
+}
+.nav a.current {
+  background: #9a0000;
+}
+.nav a:hover {
+  background: #9a0000;
+  color: #fff !important;
+}
+
+.shop {
+  background: #c20;
+  padding: 0 0 0 15px;
+  overflow: hidden;
+}
+.shop span {
+  color: #fff;
+  float: left;
+  width: 30px;
+  padding: 0 15px;
+  text-align: center;
+  font: 16px/36px "Tahoma",Arial;
+}
+
+.shop_text {
+  font: 16px/36px "Microsoft YaHei";
+  color: #fff;
+  float: left;
+}
+.shop_text em {
+  float: left;
+  width: 20px;
+  height: 19px;
+  background: url("../../images/toolbar.png") no-repeat -30px -21px;
+  margin: 8px 5px 0 0;
+}
+
+/*****正品保障*****/
+#foot_service {
+  background: #e53;
+  height: 90px;
+  padding: 15px 0;
+}
+
+.foot_s_body {
+  overflow: hidden;
+}
+
+.foot_s_body dl {
+  width: 197px;
+  border-right: 1px dashed #ffb3aa;
+  text-align: center;
+  color: #fff;
+}
+.foot_s_body dl.last {
+  border: none;
+}
+
+.foot_s_body dl dt {
+  height: 42px;
+  width: 56px;
+  background: url("../../images/foot.png") no-repeat;
+  margin: 0 0 0 70px;
+}
+.foot_s_body dl dt.foot_s_1 {
+  background-position: 0px 0;
+}
+.foot_s_body dl dt.foot_s_2 {
+  background-position: -85px 0;
+}
+.foot_s_body dl dt.foot_s_3 {
+  background-position: -170px 0;
+}
+.foot_s_body dl dt.foot_s_4 {
+  background-position: -255px 0;
+}
+.foot_s_body dl dt.foot_s_5 {
+  background-position: -340px 0;
+}
+.foot_s_body dl dt.foot_s_6 {
+  background-position: -425px 0;
+}
+
+.foot_s_body dl dd {
+  padding: 5px 0 0;
+}
+.foot_s_body dl dd.name {
+  font: 16px/18px "Microsoft YaHei";
+  padding: 10px 0 0;
+}
+
+/*****底部导航*****/
+#link {
+  background: #f3f3f3;
+  font-family: "SimSun";
+}
+
+.link_auto {
+  overflow: hidden;
+  padding: 15px 0;
+}
+.link_auto dl {
+  float: left;
+  width: 70px;
+  margin: 0 0 0 110px;
+}
+.link_auto dl dt {
+  font-weight: bold;
+  color: #464646;
+}
+.link_auto dl dd {
+  padding: 6px 0 0;
+}
+.link_auto dl dd a {
+  color: #666;
+}
+.link_auto dl dd a:hover {
+  color: #666;
+}
+
+/*****footer****/
+#footer {
+  border-top: 1px solid #ddd;
+}
+
+.footer_auto {
+  text-align: center;
+}
+
+.footer_bot {
+  padding: 20px 0;
+  position: relative;
+}
+.footer_bot img {
+  margin: 10px 10px 0 0;
+}
+
+.footer_bot p {
+  color: #666;
+  line-height: 22px;
+}
+.footer_bot p span {
+  padding: 0 8px;
+  color: #999;
+}
+.footer_bot p.copy {
+  padding: 5px 0 0;
+}
+.footer_bot p.copy a {
+  color: #666;
+}
+.footer_bot p.link {
+  color: #333;
+}
+.footer_bot p a {
+  color: #333;
+}
+.footer_bot p a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  overflow: hidden;
+}
+
+.score_cont {
+  color: #e53;
+}
+
+.score {
+  float: left;
+  width: 78px;
+  height: 14px;
+  background: url("../../images/icon.png") no-repeat 0 -77px;
+  margin-right: 5px;
+}
+
+.az {
+  padding: 10px;
+  border-top: 1px solid #f3f3f3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 180px;
+  height: 69px;
+  z-index: 1;
+}
+.az dl dt {
+  float: left;
+  background: url("../../images/icon.png") no-repeat -113px -237px;
+  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+}
+.az dl dd {
+  font: 14px/18px "Microsoft YaHei";
+  padding: 5px 0 0;
+  color: #e53;
+}
+.az dl dd.name {
+  padding: 0;
+  color: #333;
+}
+
+.hot {
+  margin-top: 10px;
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.hotList li {
+  margin-top: 10px;
+}
+.hotList .price {
+  font-size: 14px;
+  color: #ee5533;
+}
+.hotList .soldNum {
+  font-size: 12px;
+  color: #999;
+}
+.hotList .goodName {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+}
+
+.brands {
+  margin-top: 10px;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+}
+.brands .brands_title {
+  padding: 10px;
+}
+.brands li {
+  float: left;
+  border-right: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  width: 49%;
+}
+
+.goodsCate {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.goodsCate .goodsCateTitle {
+  border: 1px solid #ddd;
+  border-top: 0 none;
+  font-size: 16px;
+  padding: 6px 10px;
+  background: #f3f3f3;
+}
+.goodsCate .goodsCateTitle .dog {
+  width: 26px;
+  height: 26px;
+  background-position: -30px -34px;
+  margin-right: 10px;
+}
+.goodsCate .goodsCateList_li {
+  background: #f3f3f3;
+  padding: 0 10px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.goodsCate .goodsCateList_li:last-child h2 {
+  border-bottom: none;
+}
+.goodsCate .goodsCateList_li.goodsCateList_on {
+  border-top: 1px solid #ddd;
+  margin-top: -1px;
+  border-bottom: 1px solid #ddd;
+  border-right: none;
+  background: #FFF;
+}
+.goodsCate .goodsCateList_li.goodsCateList_on .goodsCateSub {
+  display: block;
+}
+.goodsCate .goodsCateList_li.goodsCateList_on .goodsCateSubTitle {
+  border-bottom: 1px solid #FFF;
+  color: #ee5533;
+}
+.goodsCate .goodsCateList_li.active .goodsCateSubTitle {
+  border-bottom: 1px solid #FFF;
+}
+.goodsCate .goodsCateList_li.active .goodsCateSub {
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+.goodsCate .goodsCateList_li .goodsCateSubTitle {
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  height: 20px;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.goodsCate .goodsCateList_li .goodsCateSubTitle span {
+  float: left;
+}
+.goodsCate .goodsCateList_li .goodsCateSubTitle .arrow_up, .goodsCate .goodsCateList_li .goodsCateSubTitle i.active {
+  float: right;
+  width: 10px;
+  height: 8px;
+  background-position: -60px -37px;
+  margin-top: 10px;
+}
+.goodsCate .goodsCateList_li .goodsCateSubTitle .arrow_down {
+  float: right;
+  width: 10px;
+  height: 8px;
+  background-position: -70px -37px;
+  margin-top: 5px;
+}
+.goodsCate .goodsCateList_li .goodsCateSub {
+  display: none;
+}
+.goodsCate .goodsCateList_li .goodsCateSub a {
+  width: 40%;
+  text-align: center;
+  margin: 1px;
+  padding: 6px;
+}
+.goodsCate .goodsCateList_li .goodsCateSub a.active, .goodsCate .goodsCateList_li .goodsCateSub a:hover {
+  color: #fff !important;
+  background: #ee5533;
+}
+
+.bar_title {
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.nobottom {
+  border-bottom: none !important;
+}
+
+.noright {
+  border-right: none !important;
+}
+
+.icons {
+  vertical-align: middle;
+  background-image: url(../../images/icons/list_icon.png);
+  background-repeat: no-repeat;
+}
+
+/**table**/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*crumbs*/
+.crumbs_content {
+  background: #f3f3f3;
+  height: 38px;
+  line-height: 38px;
+}
+
+.crumbs {
+  font-family: "SimSun";
+  color: #999;
+}
+
+/***media query***/
+@media screen and (max-width: 1190px) {
+  .hid {
+    display: none;
+  }
+
+  .top_search {
+    width: 460px;
+  }
+
+  .search_s {
+    width: 354px;
+  }
+}
+
+/*# sourceMappingURL=common.css.map */

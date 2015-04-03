@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.w1190 {
+  width: 1190px;
+}
+
+.w990 {
+  width: 990px;
+}
+
+.mrauto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/***media query***/
+@media screen and (max-width: 1190px) {
+  .w1190 {
+    width: 990px;
+  }
+}
+/*头部*/
+#brand_top {
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+#brand_top ul {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+}
+#brand_top ul li {
+  display: none;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+#brand_top ul li.cur {
+  display: block;
+}
+#brand_top ul li a {
+  float: left;
+  width: 1190;
+  height: 300px;
+  position: relative;
+  left: 50%;
+  top: 0;
+  margin-left: -595px;
+}
+
+.brand_num {
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  right: 0;
+  bottom: 10px;
+}
+.brand_num span {
+  float: left;
+  width: 15px;
+  height: 15px;
+  background: #ccc;
+  margin: 0 0 0 5px;
+  cursor: pointer;
+}
+.brand_num span.current {
+  background: #e53;
+}
+
+/***media query***/
+
+/*# sourceMappingURL=brand.css.map */

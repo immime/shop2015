@@ -539,7 +539,7 @@
   background: #e53;
 }
 .dog_nav a:hover {
-  color: #fff;
+  color: #fff !important;
   padding: 0 16px;
   margin: 0 -1px;
   background: #e53;

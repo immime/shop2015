@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="edge" />
+	<title>波奇商城</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link href="css/common/common.css" rel="stylesheet" />
+    <link href="css/shopdetail/detail.css" rel="stylesheet" />
+    <!--[if lt IE 9]>  
+	    <script src="js/css3-mediaqueries.js"></script>  
+	<![endif]--> 
+</head>
+<body>
+<!-- toolbar开始 -->
+<div id="toolbar">
+	<div class="toolbar_auto">
+        <div class="left">
+            <div class="collect left"><em></em>收藏波奇商城</div>
+            <div class="city left">
+                <div class="city_l left"><em></em><strong>上海</strong></div>
+                <div class="city_r left">[更换]</div>
+            </div>
+        </div>
+        <div class="toolbar_r right">
+            <a href="#">登录</a> ｜ <a href="#">注册</a> ｜ <a href="#">我的订单</a> ｜ <a href="#">手机端</a> ｜ <a href="#">关注波奇</a> ｜ <div class="r"></div>
+        </div>
+    </div>
+</div>
+<!-- toolbar结束 -->
+<!-- 顶部开始 -->
+<div id="header">
+	<div class="top_auto">
+    	<div class="logo left"><a href="#"><img src="images/logo.png" alt=""></a></div>
+        <div class="top_search left">
+            <div class="top_search_t">
+                <input type="text" value="狗粮" class="search_s" /><input type="button" class="search_btn" value="搜 索">
+                <div class="bq_suggest none">
+                    <a href="#">日本Touchdog鸡肉拧丝</a>
+                    <a href="#">日本Touchdog芝士味饼干</a>
+                    <a href="#">日本它它 牛奶味除臭饼干200g 狗零食</a>
+                    <a href="#">日本它它 牛奶味小馒头100g 狗零食</a>
+                    <a href="#">日本它它 杂锦罐装狗狗防口臭饼干1kg 狗零食</a>
+                    <a href="#">更多相关商品请点击</a>
+                </div>
+            </div>
+            <div class="top_search_b mt5">
+                热门搜索：<a href="#">哈士奇</a>　<a href="#">比熊</a>　<a href="#" class="h">狗粮</a>　<a href="#">德国牧羊犬</a>　<a href="#">布偶猫</a>　<a href="#" class="h">拉布拉多</a>　<a href="#">蝴蝶犬</a>　<a href="#">八哥</a>
+            </div>
+        </div>
+        <div class="top_ad right"><a href="#"><img src="images/ad.jpg" alt=""></a></div>
+    </div>
+</div>
+<!-- 顶部结束 -->
+<!-- 导航开始 -->
+<div id="nav">
+	<div class="nav_auto">
+    	<div class="nav_left left"><a href="#"><span>全部商品分类</span><em></em></a></div>
+        <div class="nav left">
+            <a href="#" class="current">首页</a>
+            <a href="#">狗狗</a>
+            <a href="#">猫咪</a>
+            <a href="#">小宠</a>
+            <a href="#">水族</a>
+            <a href="#">爬虫</a>
+            <a href="#">品牌馆</a>
+            <a href="#">团购</a>
+            <a href="#">宠物服务</a>
+        </div>
+        <div class="shop right">
+            <div class="shop_text"><em></em>购物车</div>
+            <span>500</span>
+        </div>
+    </div>
+</div>
+<!-- 导航结束 -->
+<!-- 主体内容开始 -->
+<div id="content">
+    <div class="crumbs_content">
+        <div class="crumbs"><a href="#">所有分类</a> > <a href="#">狗狗商品</a> > <a href="#">狗粮</a> > <a href="#">离乳期犬粮</a> > 法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</div>
+    </div>
+    <div class="body_auto">
+        <!-- 商品详细开始 -->
+        <div class="shop_t mt10 clearfix">
+            <div class="shop_t_l left">
+                <div class="pro_big">
+                    <img src="images/img/big.jpg" class="cur" alt="">
+                    <img src="images/img/big.jpg" alt="">
+                    <img src="images/img/big.jpg" alt="">
+                    <img src="images/img/big.jpg" alt="">
+                    <img src="images/img/big.jpg" alt="">
+                    <img src="images/img/big.jpg" alt="">
+                    <img src="images/img/big.jpg" alt="">
+                 </div>
+                <div class="pro_small">
+                    <div class="btn pro_prev left no_allow"></div>
+                    <div class="pro_s_cent left">
+                        <div class="pro_s_img">
+                            <img src="images/img/small1.jpg" class="current" alt="">
+                            <img src="images/img/small2.jpg" alt="">
+                            <img src="images/img/small3.jpg" alt="">
+                            <img src="images/img/small4.jpg" alt="">
+                            <img src="images/img/small5.jpg" alt="">
+                            <img src="images/img/small4.jpg" alt="">
+                            <img src="images/img/small5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="btn pro_next left"></div>
+                </div>
+            </div>
+            <div class="shop_t_c left">
+                <div class="shop_name">法国皇家ROYAL CANIN 小型犬奶糕/怀孕/哺乳期母犬/离乳期幼犬奶糕3kg</div>
+                <div class="shop_ad">
+                    <em class="left">全犬种10月以上成犬通用！亚洲最大最专业的狗粮生产基地！</em>
+                    <span class="right">3月保真行动满99减20</span>
+                </div>
+                <div class="shop_t_c_c">
+                    <dl>
+                        <dt class="j">波&nbsp;&nbsp;奇&nbsp;&nbsp;价：</dt>
+                        <dd>
+                            <div class="bq_price left"><span>¥397.00</span><em></em></div>
+                            <div class="dou right">|　购买即送20波奇豆</div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>市&nbsp;&nbsp;场&nbsp;&nbsp;价：</dt>
+                        <dd><div class="oldprice">¥679.00</div></dd>
+                    </dl>
+                    <dl>
+                        <dt>促销信息：</dt>
+                        <dd>
+                            <div class="yh"><em class="yh_text">直降</em>已优惠：¥5.00</div>
+                            <div class="yh"><em class="yh_text">赠品</em>满78元即送赠品，赠完为止</div>
+                            <div class="xz">以下优惠活动购物车中任选其一</div>
+                            <div class="yh"><em class="yh_text">满减</em>满200减40，满400减120</div>
+                            <div class="yh"><em class="yh_text">满赠</em>满168元即送赠品，赠完为止</div>
+                            <div class="yh"><em class="yh_text">多买多惠</em>100元任选5件</div>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="shop_t_c_b">
+                    <dl>
+                        <dt>配&nbsp;&nbsp;送&nbsp;&nbsp;至：</dt>
+                        <dd>
+                            <select name="" id="">
+                                <option value="">上海 黄浦区</option>
+                            </select>
+                            <div class="support left">有货；支持使用优惠券</div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>选择口味：</dt>
+                        <dd>
+                            <div class="change current">鸡肉</div>
+                            <div class="change">牛肉</div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>选择规格：</dt>
+                        <dd>
+                            <div class="change current">2.5kg</div>
+                            <div class="change">15kg</div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>购买数量：</dt>
+                        <dd>
+                            <div class="amount"><span class="reduce">-</span><input type="text" value="1" /><span class="add">+</span></div><div class="jian">件</div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>&nbsp;</dt>
+                        <dd>
+                            <input value="立即购买" class="gotobuy left" type="button">
+                            <a title="加入购物车" class="tocat left" id="intocar_btn"></a>
+                            <div id="collect" class="left"></div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="shop_t_r right">
+                <div class="bz"></div>
+                <div class="brand">
+                    <dl>
+                        <dt>所属品牌：</dt>
+                        <dd><a href="#">皇家 ROYAL CANIN</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>商品编号：</dt>
+                        <dd>100127</dd>
+                    </dl>
+                    <dl>
+                        <dt>已　　售：</dt>
+                        <dd><a href="#">11220件</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>满意指数：</dt>
+                        <dd>
+                            <div class="score_cont"><p class="score"></p><em>5.1分</em></div>
+                            <div class="pl_top"><a href="#">已有208人评论</a></div>
+                        </dd>
+                    </dl>
+                    <ul>
+                        <li>授权认证：<em></em>授权文件</li>
+                        <li>对商品有疑问？<a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="az detail_az">
+                    <dl>
+                        <dt></dt>
+                        <dd class="name">波奇客户端</dd>
+                        <dd>首次安装即送<br>10元现金券！</dd>
+                    </dl>
+                </div>
+                <div class="share">
+                    <div class="left share_text">分享到：</div>
+                    <div class="bdsharebuttonbox left"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                </div>
+            </div>
+        </div>
+        <!-- 商品详细结束 -->
+        <div class="pro_cont mt30">
+            <!-- 左侧开始 -->
+            <div class="leftSide left">
+                <div class="hot" style="margin:0;">
+                    <h2 class="bar_title">同类产品推荐</h2>
+                    <ul class="hotList">
+                        <li>
+                            <a href="#">
+                                <img src="images/img/hotgoods.jpg" alt="" width="170" height="140" />
+                            </a>
+                            <div class="clearfix">
+                                <strong class="price">¥ 397.00</strong>
+                                <span class="soldNum">已售11220</span>
+                            </div>
+                            <a class="goodName" href="">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/img/hotgoods.jpg" alt="" width="170" height="140" />
+                            </a>
+                            <div class="clearfix">
+                                <strong class="price">¥ 397.00</strong>
+                                <span class="soldNum">已售11220</span>
+                            </div>
+                            <a class="goodName" href="">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/img/hotgoods.jpg" alt="" width="170" height="140" />
+                            </a>
+                            <div class="clearfix">
+                                <strong class="price">¥ 397.00</strong>
+                                <span class="soldNum">已售11220</span>
+                            </div>
+                            <a class="goodName" href="">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="brands">
+                    <h2 class="bar_title brands_title">热卖品牌</h2>
+                    <ul>
+                        <li>
+                            <a href=""><img src="./images/img/brand1.jpg" alt=""></a>
+                        </li>
+                        <li class="noright">
+                            <a href=""><img src="./images/img/brand2.jpg" alt="" ></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/img/brand1.jpg" alt=""></a>
+                        </li>
+                        <li class="noright">
+                            <a href=""><img src="./images/img/brand2.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/img/brand1.jpg" alt=""></a>
+                        </li>
+                        <li class="noright">
+                            <a href=""><img src="./images/img/brand2.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="goodsCate mt10">
+                    <h1 class="goodsCateTitle proTit">相关分类</h1>
+                    <ul class="goodsCateList">
+                        <li class="goodsCateList_li goodsCateList_on  goodsCateList_on2">
+                            <h2 class="goodsCateSubTitle"><span>狗粮</span><i class="icons arrow_up"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                        <li class="goodsCateList_li">
+                            <h2 class="goodsCateSubTitle"><span>狗罐头/妙鲜包</span><i class="icons arrow_down"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                        <li class="goodsCateList_li">
+                            <h2 class="goodsCateSubTitle"><span>狗零食</span><i class="icons arrow_down"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                        <li class="goodsCateList_li">
+                            <h2 class="goodsCateSubTitle"><span>狗狗保健品</span><i class="icons arrow_down"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                        <li class="goodsCateList_li">
+                            <h2 class="goodsCateSubTitle"><span>狗狗医疗</span><i class="icons arrow_down"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                        <li class="goodsCateList_li">
+                            <h2 class="goodsCateSubTitle"><span>狗狗沐浴露</span><i class="icons arrow_down"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                        <li class="goodsCateList_li">
+                            <h2 class="goodsCateSubTitle"><span>狗狗日用品</span><i class="icons arrow_down"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                        <li class="goodsCateList_li">
+                            <h2 class="goodsCateSubTitle"><span>狗狗玩具</span><i class="icons arrow_down"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                        <li class="goodsCateList_li">
+                            <h2 class="goodsCateSubTitle"><span>狗衣服/狗窝</span><i class="icons arrow_down"></i></h2>
+                            <div class="goodsCateSub">
+                                <a href="" class="active">离乳期犬粮</a>
+                                <a href="">幼犬粮</a>
+                                <a href="">成犬粮</a>
+                                <a href="">老犬粮</a>
+                                <a href="">全犬粮</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 左侧结束 -->
+            <!-- 右侧开始 -->
+            <div class="rightSide right">
+                <div class="pro_tag_body">
+                    <div class="pro_tag">
+                        <div class="pro_tag_cont">
+                            <span class="current">商品介绍</span>
+                            <span>商品评论 <em>242</em></span>
+                            <span>售后服务</span>
+                            <span>商品咨询 <em>4</em></span>
+                            <span>购买记录 <em>20</em></span>
+                            <a href="#">加入购物车</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_pl product_introduct">
+                    <div><img src="images/img/p.jpg" alt=""></div>
+                    <div class="mt40">
+                        <div class="xx_tit"><span>产品信息</span><em>Product Information</em></div>
+                        <div class="mt15">
+                            产品名称：珍宝 喜多鱼成猫粮海洋鱼味猫粮10kg 超高性价比<br />
+                            适用范围：猫用<br />
+                            产品规格：10kg<br />
+                            生产厂家：珍宝
+                        </div>
+                    </div>
+                    <div class="mt40">
+                        <div class="xx_tit"><span>产品优势</span><em>Product Advantage</em></div>
+                        <div class="mt15" style="text-align:center">
+                            <img src="images/img/p2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- 商品评论开始 -->
+                <div class="pro_pl mt10">
+                    <div class="pro_pl_tit"><h2>商品评论</h2></div>
+                    <div class="pl_body_top">
+                        <div class="pl_l left">
+                            <div class="pl_score"><span>4.9</span>分</div>
+                            <div class="score"></div>
+                            <div class="pl_num">共 208 人评论</div>
+                        </div>
+                        <div class="pl_c left">
+                            <dl>
+                                <dt>好评(200)：</dt>
+                                <dd><div class="line"><div class="precent" style="width:288px;"></div></div></dd>
+                            </dl>
+                            <dl>
+                                <dt>中评(10)：</dt>
+                                <dd><div class="line"><div class="precent" style="width:158px;"></div></div></dd>
+                            </dl>
+                            <dl>
+                                <dt>差评(5)：</dt>
+                                <dd><div class="line"><div class="precent" style="width:50px;"></div></div></dd>
+                            </dl>
+                        </div>
+                        <div class="pl_r right">
+                            <dl>
+                                <dt><strong>评论获波奇豆</strong></dt>
+                                <dd>· 下单用户才能发表评论</dd>
+                                <dd>· <span>1豆=0.1元</span></dd>
+                                <dd>· 精华评论更有额外豆奖励</dd>
+                                <dd><div class="pl_btn">发表评论</div></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="pl_tag mt10">
+                        <span class="current">全部(208)</span>
+                        <span>好评(208)</span>
+                        <span>中评(10)</span>
+                        <span>差评(5)</span>
+                        <span>晒单(1)</span>
+                    </div>
+                    <div>
+                        <div class="pl_list">
+                            <div class="pl_head left">
+                                <a href="#"><img src="images/img/head.jpg" alt=""></a>
+                                <p>super***</p>
+                            </div>
+                            <div class="pl_right right">
+                                <dl>
+                                    <dt>评分：</dt>
+                                    <dd>
+                                        <div class="score"></div><span class="ce53">5.1分</span>&#12288;&#12288;<span class="ce53">奖励10个波奇豆</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>内容：</dt>
+                                    <dd>物流很快！第二次买了，之前先买了袋小的试试，狗狗挺爱吃的！这次就买了一大袋！<span class="c999">2015-02-05 19:04</span></dd>
+                                </dl>
+                                <dl>
+                                    <dt>晒单：</dt>
+                                    <dd>
+                                        <img src="images/img/small1.jpg" alt=""><img src="images/img/small2.jpg" alt=""><img src="images/img/small3.jpg" alt="">
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>&nbsp;</dt>
+                                    <dd>
+                                        <span class="replay_num c999">回复(3)</span> <span class="c999">｜</span> <span class="praise c999">赞(3)</span>
+                                        <div class="pl_k mt5 none">
+                                            <div class="arr"></div>
+                                            <div class="pl_k_body">
+                                                <div class="replay">
+                                                    <span class="c999">回复 super***：</span>
+                                                    <input type="text" value="">
+                                                </div>
+                                                <div class="replay_btn">回复</div>
+                                                <div class="replay_list">小明 ：给力！<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="replay_list">小张 ：以后我也来这里买。<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="replay_list">小李 ：哇哈，支持！！！<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="page_pl"><span class="current">1</span><span>2</span><span>3</span><span>4</span><span>5</span></div>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pl_list">
+                            <div class="pl_head left">
+                                <a href="#"><img src="images/img/head.jpg" alt=""></a>
+                                <p>super***</p>
+                            </div>
+                            <div class="pl_right right">
+                                <dl>
+                                    <dt>评分：</dt>
+                                    <dd>
+                                        <div class="score"></div><span class="ce53">5.1分</span>&#12288;&#12288;<span class="ce53">奖励10个波奇豆</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>内容：</dt>
+                                    <dd>物流很快！第二次买了，之前先买了袋小的试试，狗狗挺爱吃的！这次就买了一大袋！<span class="c999">2015-02-05 19:04</span></dd>
+                                </dl>
+                                <dl>
+                                    <dt>&nbsp;</dt>
+                                    <dd>
+                                        <span class="replay_num c999">回复(3)</span> <span class="c999">｜</span> <span class="praise c999">赞(3)</span>
+                                        <div class="pl_k mt5 none">
+                                            <div class="arr"></div>
+                                            <div class="pl_k_body">
+                                                <div class="replay">
+                                                    <span class="c999">回复 super***：</span>
+                                                    <input type="text" value="">
+                                                </div>
+                                                <div class="replay_btn">回复</div>
+                                                <div class="replay_list">小明 ：给力！<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="replay_list">小张 ：以后我也来这里买。<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="replay_list">小李 ：哇哈，支持！！！<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="page_pl"><span class="current">1</span><span>2</span><span>3</span><span>4</span><span>5</span></div>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pl_list">
+                            <div class="pl_head left">
+                                <a href="#"><img src="images/img/head.jpg" alt=""></a>
+                                <p>super***</p>
+                            </div>
+                            <div class="pl_right right">
+                                <dl>
+                                    <dt>评分：</dt>
+                                    <dd>
+                                        <div class="score"></div><span class="ce53">5.1分</span>&#12288;&#12288;<span class="ce53">奖励10个波奇豆</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>内容：</dt>
+                                    <dd>物流很快！第二次买了，之前先买了袋小的试试，狗狗挺爱吃的！这次就买了一大袋！<span class="c999">2015-02-05 19:04</span></dd>
+                                </dl>
+                                <dl>
+                                    <dt>&nbsp;</dt>
+                                    <dd>
+                                        <span class="replay_num c999">回复(3)</span> <span class="c999">｜</span> <span class="praise c999">赞(3)</span>
+                                        <div class="pl_k mt5 none">
+                                            <div class="arr"></div>
+                                            <div class="pl_k_body">
+                                                <div class="replay">
+                                                    <span class="c999">回复 super***：</span>
+                                                    <input type="text" value="">
+                                                </div>
+                                                <div class="replay_btn">回复</div>
+                                                <div class="replay_list">小明 ：给力！<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="replay_list">小张 ：以后我也来这里买。<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="replay_list">小李 ：哇哈，支持！！！<span class="c999">2015-02-05 19:04</span></div>
+                                                <div class="page_pl"><span class="current">1</span><span>2</span><span>3</span><span>4</span><span>5</span></div>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pl_page"><span><上一页</span><span>1</span><span class="current">2</span><span>3</span><span>4</span><em>...</em><span>15</span><span>下一页></span></div>
+                </div>
+                <!-- 商品评论结束 -->
+                <!-- 售后服务开始 -->
+                <div class="pro_pl mt10">
+                    <div class="pro_pl_tit"><h2>售后服务</h2></div>
+                    <div class="baozhang">
+                        <dl>
+                            <dt class="a"></dt>
+                            <dd class="name">正品保障</dd>
+                            <dd>精选挑选供货商，严格审核产品质量和源头，承诺假一罚十。</dd>
+                        </dl>
+                        <dl>
+                            <dt class="b"></dt>
+                            <dd class="name">7天免费退换货</dd>
+                            <dd>商品存在质量、外包装、性能上的问题，7天无条件退换货。</dd>
+                        </dl>
+                        <dl>
+                            <dt class="c"></dt>
+                            <dd class="name">正规发票</dd>
+                            <dd>波奇网为所有客户开具发票，作为客户质保凭证，请顾客自行保留原件作为后续质保之需。</dd>
+                        </dl>
+                        <dl>
+                            <dd class="name">退换货运费规定</dd>
+                            <dd>① 凡是由商品质量问题导致的退换货，相应产生的运费由波奇网承担。</dd>
+                            <dd>② 非质量问题的商品退换货，运费由客户承担。</dd>
+                            <dd>③ 退货而产生的运费会在商品退款时扣除。</dd>
+                        </dl>
+                        <dl>
+                            <dd class="name">温馨提示</dd>
+                            <dd>由于部分商品包装更换较为频繁，因此您收到的货品有可能与图片不完全一致，请您以收到的商品实物为准，同时我们会尽量做到及时更新。由此给您带来的不便请多多谅解，谢谢！</dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- 售后服务结束 -->
+                <!-- 商品咨询开始 -->
+                <div class="pro_pl mt10">
+                    <div class="pro_pl_tit"><h2>商品咨询</h2></div>
+                    <div class="zx">
+                        <div class="zx_list">
+                            <div class="zx_net">网　　友：VIP路人　　　　2015-02-05 19:04 </div>
+                            <div class="zx_ask">宠友提问：<span>保质期到什么时候呢？</span></div>
+                            <div class="zx_replay">波奇回复：<span>您好，此款商品日期2014.8.31-2016.2.21。如果有其他问题请联系在线客服咨询！感谢您对波奇商城的支持！祝您生活愉快！</span></div>
+                        </div>
+                        <div class="zx_list">
+                            <div class="zx_net">网　　友：VIP路人　　　　2015-02-05 19:04 </div>
+                            <div class="zx_ask">宠友提问：<span>保质期到什么时候呢？</span></div>
+                            <div class="zx_replay">波奇回复：<span>您好，因不同区域产生的运费也不一样，具体是运费收费相关您可以参考http://www.boqii.com/help/deliver.html了解！非常感谢您对波奇商城的支持，祝您生活愉快！非常感谢您对波奇商城的支持，祝您生活愉快！</span></div>
+                        </div>
+                        <div class="pl_page"><span><上一页</span><span>1</span><span class="current">2</span><span>3</span><span>4</span><em>...</em><span>15</span><span>下一页></span></div>
+                        <div class="fbzx">
+                            <strong>发表咨询：</strong>
+                            <div>声明：您的咨询问题客服将在<span class="ce53">1-2个工作日</span>内回复您；订单查询 、物流配送 、退换货 、商品损坏等售后问题请直接拨打<span class="ce53">400-820-6098。</span></div>
+                            <div class="fbzx_input mt10"><textarea name="" id="" cols="30" rows="10"></textarea></div>
+                            <div class="fbzx_tj mt10"><input type="button" value="提交咨询"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 商品咨询结束 -->
+                <!-- 猜你喜欢开始 -->
+                <div class="pro_pl cai mt10">
+                    <h2>猜你喜欢</h2>
+                    <div class="cai_body">
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h1.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h2.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h3.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h4.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h5.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h1.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h2.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h3.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h4.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#"><img src="images/img/h5.jpg" alt=""></a></dt>
+                            <dd><span class="l">¥ 80.00</span><span class="r">已售1432</span></dd>
+                            <dd class="name"><a href="#">法国皇家ROYAL CANIN 大型犬成犬粮专用狗粮15kg GR26</a></dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- 猜你喜欢结束 -->
+            </div>
+            <!-- 右侧结束 -->
+        </div>
+    </div>
+</div>
+<!-- 主体内容结束 -->
+<!-- 正品保障开始 -->
+<div id="foot_service" class="mt30">
+    <div class="foot_s_body">
+        <dl class="left">
+            <dt class="foot_s_1"></dt>
+            <dd class="name">正品保障</dd>
+            <dd>全场正品&#12288;假一罚三</dd>
+        </dl>
+        <dl class="left">
+            <dt class="foot_s_2"></dt>
+            <dd class="name">闪电发货</dd>
+            <dd>江浙沪皖满60元免运费</dd>
+        </dl>
+        <dl class="left">
+            <dt class="foot_s_3"></dt>
+            <dd class="name">无忧退换</dd>
+            <dd>七天退换&#12288;购买无忧</dd>
+        </dl>
+        <dl class="left">
+            <dt class="foot_s_4"></dt>
+            <dd class="name">优质服务</dd>
+            <dd>品类丰富&#12288;多快好省</dd>
+        </dl>
+        <dl class="left last">
+            <dt class="foot_s_5"></dt>
+            <dd class="name">业内领先</dd>
+            <dd>宠友最爱&#12288;值得信赖</dd>
+        </dl>
+    </div>
+</div>
+<!-- 正品保障结束 -->
+<!-- 底部导航开始 -->
+<div id="link">
+    <div class="link_auto">
+        <dl>
+            <dt>新手上路</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">现金账户</a></dd>
+            <dd><a href="#">优惠券</a></dd>
+            <dd><a href="#">订单查询</a></dd>
+            <dd><a href="#">服务协议</a></dd>
+        </dl>
+        <dl>
+            <dt>购买方式</dt>
+            <dd><a href="#">余额支付</a></dd>
+            <dd><a href="#">网上支付</a></dd>
+            <dd><a href="#">银行汇款</a></dd>
+            <dd><a href="#">货到付款</a></dd>
+        </dl>
+        <dl>
+            <dt>配送方式</dt>
+            <dd><a href="#">配送方式</a></dd>
+            <dd><a href="#">收费标准</a></dd>
+            <dd><a href="#">配送时间</a></dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd><a href="#">如何退换货</a></dd>
+            <dd><a href="#">如何退款</a></dd>
+            <dd><a href="#">退换货流程</a></dd>
+            <dd><a href="#">客服电话</a></dd>
+        </dl>
+        <dl>
+            <dt>常见问题</dt>
+            <dd><a href="#">注册登录</a></dd>
+            <dd><a href="#">积分制度</a></dd>
+            <dd><a href="#">热点问题</a></dd>
+        </dl>
+    </div>
+</div>
+<!-- 底部导航结束 -->
+<!-- 底部开始 -->
+<div id="footer">
+    <div class="footer_auto">
+        <div class="footer_bot">
+            <p class="link"><a href="http://www.boqii.com/about.html" target="_blank">关于波奇</a><span>|</span><a href="http://www.boqii.com/link.html" target="_blank">友情链接</a><span>|</span><a href="http://www.boqii.com/joinus.html" target="_blank">诚聘英才</a><span>|</span><a href="http://www.boqii.com/contact.html" target="_blank">联系我们</a><span>|</span><a href="http://www.boqii.com/sitemap.html" target="_blank">网站地图</a><span>|</span><a href="http://www.boqii.com/complaints.html" target="_blank">意见反馈</a><span>|</span><a href="http://www.boqii.com/help.html" target="_blank">帮助中心</a><span>|</span>客服热线：400-820-6098</p>
+            <p class="copy">Copyright &copy; 2007-2015 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有 <a target="_blank" href="http://www.miibeian.gov.cn/">沪ICP备13034501号-2</a>&nbsp;增值电信业务经营许可证：<a target="_blank" href="http://www.miibeian.gov.cn/">沪B2-20140120</a></p>
+            <p>
+                <a rel="nofollow" target="_blank" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20131022163114962"><img width="100" height="35" src="images/foot_gs.png"></a>
+                <a rel="nofollow" target="_blank" href="http://www.boqii.com/ads.php"><img width="100" height="35" src="images/foot_cx.png"></a>
+                <a rel="nofollow" target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&amp;ct=df&amp;a=1&amp;pa=0.1636424780320953"><img width="100" height="35" src="images/foot_kx.png"></a>
+                <a rel="nofollow" target="_blank" href="http://www.zx110.org/"><img width="100" height="35" src="images/foot_zx.png"></a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 底部结束 -->
+<script src="js/jquery-1.8.min.js"></script>
+<script src="js/jquery.loadSlide.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/pro_detail.js"></script>
+</body>
+</html>

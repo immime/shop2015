@@ -2,13 +2,6 @@
 
 @import "../common/var";
 /*商品详细*/
-.crumbs_content{background:#f3f3f3;height:38px;line-height:38px;}
-.crumbs{
-	@extend .w1190;
-	@extend .mrauto;
-	font-family:"SimSun";
-	color:$color_999;
-}
 .shop_t{}
 .shop_t_l{
 	width:350px;

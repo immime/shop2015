@@ -2,7 +2,7 @@
   width: 1190px;
 }
 
-.w990, .top_auto, #wrap, .success_info {
+.w990, .top_auto, .toolbar_auto, #wrap, .success_info {
   width: 990px;
 }
 
@@ -60,6 +60,7 @@
 
 .clearfix, .yunfei_info, .cart_header, .cart_goodslist li, .cart_goodslist .present_list, .cart_footer, .product_price_modify, .model_dialog .cart_goodslist li, .user_dialog .tab_header, .user_dialog .auto_login, .online_pay .online_pay_info, .online_pay .online_pay_warn, .online_pay .bank_payment, .online_pay .bank_payment .bank_payment_container, .order_detail_container .order_detail_title, .order_detail_container .address_list, .order_detail_container .address_container ul, .order_detail_container .order_payments, .order_detail_container .order_accounts, .order_detail_container .order_accounts .order_accounts_right li, .submit_order .submit_order_div01, .order_detail_dialog .new_address_container, .order_detail_dialog .new_address_chioce, .receipt_dialog .receipt_taitou li, .coupon_list .coupon_use {
   *height: 1%;
+  zoom: 1;
 }
 
 .cart_footer .product_sum_jisuan a, .user_dialog .tab_header li, .user_dialog .login_btn a, .online_pay, .success_title, .success_info .success_tips, .success_info .error_tips, .order_detail_container .order_detail_title h1 {
@@ -72,6 +73,11 @@
 
 body {
   font-family: "SimSun";
+  background: #f3f3f3;
+}
+
+#toolbar, #footer {
+  background: #ffffff;
 }
 
 input {
@@ -1082,7 +1088,7 @@ img {
   height: 40px;
   line-height: 36px;
   vertical-align: middle;
-  background-position: left -394px;
+  background-position: left -531px;
   background-repeat: no-repeat;
   padding-left: 40px;
 }
@@ -1137,6 +1143,9 @@ img {
 }
 .order_success .bank_logo {
   border: 1px solid #dddddd;
+}
+.order_success .error_reason01 {
+  margin-bottom: 15px !important;
 }
 
 .order_table {

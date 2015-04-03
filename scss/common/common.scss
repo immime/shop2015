@@ -403,6 +403,14 @@ td,
 th {
 	padding: 0;
 }
+/*crumbs*/
+.crumbs_content{background:#f3f3f3;height:38px;line-height:38px;}
+.crumbs{
+	@extend .w1190;
+	@extend .mrauto;
+	font-family:"SimSun";
+	color:$color_999;
+}
 /***media query***/
 @media screen and (max-width:1190px){
 	.hid{display:none;}

@@ -64,6 +64,7 @@
 
 .clearfix, .breadcrumb, #listcontent, #listcontent .filter_container .filter_item, #listcontent .filter_container .filter_con_list, #listcontent .filter_container .filter_con_list .brand_letters, #listcontent .product_container .product_list, #listcontent .product_container .product_list li .product_status {
   *height: 1%;
+  zoom: 1;
 }
 
 #listcontent .leftBar {

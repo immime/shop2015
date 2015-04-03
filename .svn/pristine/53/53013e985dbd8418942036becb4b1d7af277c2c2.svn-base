@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<title>波奇商城-付款成功</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link href="css/common/common.css" rel="stylesheet" />
+    <link href="css/shopcart/cart.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+	    <script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- toolbar开始 -->
+<div id="toolbar">
+    <div class="toolbar_auto">
+        <div class="left">
+            <div class="collect left"><em></em>收藏波奇商城</div>
+            <div class="city left">
+                <div class="city_l left"><em></em><strong>上海</strong></div>
+                <div class="city_r left">[更换]</div>
+            </div>
+        </div>
+        <div class="toolbar_r right">
+            <a href="#">登录</a> ｜ <a href="#">注册</a> ｜ <a href="#">我的订单</a> ｜ <a href="#">手机端</a> ｜ <a href="#">关注波奇</a> ｜ <div class="r"></div>
+        </div>
+    </div>
+</div>
+<!-- toolbar结束 -->
+<!-- 顶部开始 -->
+<div id="header">
+    <div class="top_auto">
+        <div class="logo left">
+            <a href="#"><img src="images/logo.png" alt=""></a>
+        </div>
+        <div class="cart_process">
+            <ul class="steps step_3">
+                <li class="process_cart">我的购物车</li>
+                <li class="process_info">核对订单信息</li>
+                <li class="process_success">订单提交成功</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 顶部结束 -->
+
+<div id="wrap">
+    <p class="success_title">付款成功</p>
+    <div class="success_info">
+        <div class="success_info_container">
+            <p class="icons success_tips">付款成功！我们将尽快为您安排发货！</p>
+            <p class="success_orderinfo">
+                <span>订单号：1766751703　</span>
+                |　
+                <span>您已成功付款<strong class="success_price">199.00</strong>元</span>
+            </p>
+            <p class="success_operation">
+                <a href="" class="btn primary_btn">查看订单详情</a>
+                <a href="" class="btn common_btn">继续购物</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- 底部导航开始 -->
+<div id="link">
+    <div class="link_auto">
+        <dl>
+            <dt>新手上路</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">现金账户</a></dd>
+            <dd><a href="#">优惠券</a></dd>
+            <dd><a href="#">订单查询</a></dd>
+            <dd><a href="#">服务协议</a></dd>
+        </dl>
+        <dl>
+            <dt>购买方式</dt>
+            <dd><a href="#">余额支付</a></dd>
+            <dd><a href="#">网上支付</a></dd>
+            <dd><a href="#">银行汇款</a></dd>
+            <dd><a href="#">货到付款</a></dd>
+        </dl>
+        <dl>
+            <dt>配送方式</dt>
+            <dd><a href="#">配送方式</a></dd>
+            <dd><a href="#">收费标准</a></dd>
+            <dd><a href="#">配送时间</a></dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd><a href="#">如何退换货</a></dd>
+            <dd><a href="#">如何退款</a></dd>
+            <dd><a href="#">退换货流程</a></dd>
+            <dd><a href="#">客服电话</a></dd>
+        </dl>
+        <dl>
+            <dt>常见问题</dt>
+            <dd><a href="#">注册登录</a></dd>
+            <dd><a href="#">积分制度</a></dd>
+            <dd><a href="#">热点问题</a></dd>
+        </dl>
+    </div>
+</div>
+<!-- 底部导航结束 -->
+
+<!-- 底部开始 -->
+<div id="footer">
+    <div class="footer_auto">
+        <div class="footer_bot">
+            <p class="link"><a href="http://www.boqii.com/about.html" target="_blank">关于波奇</a><span>|</span><a href="http://www.boqii.com/link.html" target="_blank">友情链接</a><span>|</span><a href="http://www.boqii.com/joinus.html" target="_blank">诚聘英才</a><span>|</span><a href="http://www.boqii.com/contact.html" target="_blank">联系我们</a><span>|</span><a href="http://www.boqii.com/sitemap.html" target="_blank">网站地图</a><span>|</span><a href="http://www.boqii.com/complaints.html" target="_blank">意见反馈</a><span>|</span><a href="http://www.boqii.com/help.html" target="_blank">帮助中心</a><span>|</span>客服热线：400-820-6098</p>
+            <p class="copy">Copyright &copy; 2007-2015 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有 <a target="_blank" href="http://www.miibeian.gov.cn/">沪ICP备13034501号-2</a>&nbsp;增值电信业务经营许可证：<a target="_blank" href="http://www.miibeian.gov.cn/">沪B2-20140120</a></p>
+            <p>
+                <a rel="nofollow" target="_blank" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20131022163114962"><img width="100" height="35" src="images/foot_gs.png"></a>
+                <a rel="nofollow" target="_blank" href="http://www.boqii.com/ads.php"><img width="100" height="35" src="images/foot_cx.png"></a>
+                <a rel="nofollow" target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&amp;ct=df&amp;a=1&amp;pa=0.1636424780320953"><img width="100" height="35" src="images/foot_kx.png"></a>
+                <a rel="nofollow" target="_blank" href="http://www.zx110.org/"><img width="100" height="35" src="images/foot_zx.png"></a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 底部结束 -->
+<script src="js/jquery-1.8.min.js"></script>
+<script src="js/shopcart.js"></script>
+</body>
+</html>
